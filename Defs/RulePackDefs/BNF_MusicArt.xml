@@ -1,0 +1,117 @@
+<Defs>
+
+  <!-- NAME MAKER -->
+  <RulePackDef>
+    <defName>BNF_MusicArtName</defName>
+    <include>
+      <!-- optional but matches vanilla art name behavior -->
+      <li>ArtNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- ROOT REQUIRED BY CompArt -->
+        <li>r_art_name->[bnf_music_adjective] [bnf_music_noun]</li>
+
+        <!-- Adjectives -->
+        <li>bnf_music_adjective->Dusty</li>
+        <li>bnf_music_adjective->Warped</li>
+        <li>bnf_music_adjective->Distorted</li>
+        <li>bnf_music_adjective->Lo-fi</li>
+        <li>bnf_music_adjective->Bootleg</li>
+        <li>bnf_music_adjective->Glitchy</li>
+        <li>bnf_music_adjective->Raw</li>
+        <li>bnf_music_adjective->Abrasive</li>
+        <li>bnf_music_adjective->Hissing</li>
+        <li>bnf_music_adjective->Fluttering</li>
+        <li>bnf_music_adjective->Tinny</li>
+        <li>bnf_music_adjective->Noisy</li>
+        <li>bnf_music_adjective->Crackling</li>
+        <li>bnf_music_adjective->Muffled</li>
+        <li>bnf_music_adjective->Fuzzy</li>
+        <li>bnf_music_adjective->Vintage</li>
+        <li>bnf_music_adjective->Gritty</li>
+        <li>bnf_music_adjective->Clean</li>
+        <li>bnf_music_adjective->Bright</li>
+        <li>bnf_music_adjective->Warm</li>
+
+        <!-- Nouns -->
+        <li>bnf_music_noun->Tape</li>
+        <li>bnf_music_noun->Set</li>
+        <li>bnf_music_noun->Session</li>
+        <li>bnf_music_noun->Demo</li>
+        <li>bnf_music_noun->Pressing</li>
+        <li>bnf_music_noun->Cut</li>
+        <li>bnf_music_noun->Take</li>
+        <li>bnf_music_noun->Mix</li>
+        <li>bnf_music_noun->Bootleg</li>
+        <li>bnf_music_noun->Recording</li>
+        <li>bnf_music_noun->Reel</li>
+        <li>bnf_music_noun->Performance</li>
+        <li>bnf_music_noun->Live Cut</li>
+        <li>bnf_music_noun->Outtake</li>
+        <li>bnf_music_noun->Compilation</li>
+        <li>bnf_music_noun->Single</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- DESCRIPTION MAKER with VANILLA FALLBACKS -->
+  <RulePackDef>
+    <defName>ArtDescription_BNFMusic</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- Primary root used by CompArt -->
+        <li>r_art_description->[bnf_desc_root]</li>
+
+        <!-- Fallback roots some vanilla packs redirect to -->
+        <li>physical_description_root->[bnf_desc_root]</li>
+        <li>r_root->[bnf_desc_root]</li>
+
+        <!-- Optional: satisfy TalelessImages if it references [image] -->
+        <li>image->microtape recording</li>
+
+        <!-- Your actual description -->
+        <li>bnf_desc_root->A [bnf_style] recording captured on magnetic microtape. The sound is [bnf_texture]. [bnf_hook]</li>
+
+        <!-- style -->
+        <li>bnf_style->field</li>
+        <li>bnf_style->studio</li>
+        <li>bnf_style->live</li>
+        <li>bnf_style->bunker</li>
+        <li>bnf_style->basement</li>
+        <li>bnf_style->shipboard</li>
+        <li>bnf_style->colony-hall</li>
+        <li>bnf_style->hangar-bay</li>
+        <li>bnf_style->cave</li>
+        <li>bnf_style->outpost</li>
+        <li>bnf_style->communal-dorm</li>
+
+        <!-- texture -->
+        <li>bnf_texture->thin</li>
+        <li>bnf_texture->muddy</li>
+        <li>bnf_texture->harsh</li>
+        <li>bnf_texture->noisy</li>
+        <li>bnf_texture->warbly</li>
+        <li>bnf_texture->fluttering</li>
+        <li>bnf_texture->uneven</li>
+        <li>bnf_texture->crisp</li>
+        <li>bnf_texture->surprisingly clear</li>
+        <li>bnf_texture->tape-worn</li>
+        <li>bnf_texture->saturated</li>
+        <li>bnf_texture->compressed</li>
+        <li>bnf_texture->airy</li>
+        <li>bnf_texture->echoing</li>
+
+        <!-- hooks -->
+        <li>bnf_hook->Credited to an unknown artist.</li>
+        <li>bnf_hook->Said to feature improvised sections.</li>
+        <li>bnf_hook->Rumored to be a single take.</li>
+        <li>bnf_hook->A local favorite among colonists.</li>
+        <li>bnf_hook->Collectors argue about its authenticity.</li>
+        <li>bnf_hook->Bits of radio chatter leak into quiet moments.</li>
+        <li>bnf_hook->Audience clatter can be heard between tracks.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

@@ -1,0 +1,9 @@
+<ModMetaData>
+	<name>BNF Blank Data Cartridge Base</name>
+	<author>ChatGPT (generated)</author>
+	<packageId>com.bnf.blankdatacartridge</packageId>
+	<description>Minimal base mod providing a blank data cartridge item and a recipe. Use this as a single-item base to iterate on.</description>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+</ModMetaData>

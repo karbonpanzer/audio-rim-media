@@ -1,0 +1,103 @@
+<Defs>
+
+	<!-- ==================== Abstract base for cartridges ==================== -->
+	<ThingDef Abstract="True" Name="BNF_CartridgeBase">
+		<category>Item</category>
+		<thingClass>ThingWithComps</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<drawGUIOverlay>true</drawGUIOverlay>		
+		<soundInteract>Standard_Drop</soundInteract>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>0.5</drawSize>
+			<texPath>Things/Item/Media/Cartridges/BNF_Cartridge_Placeholder</texPath>
+		</graphicData>
+
+		<statBases>
+			<MarketValue>45</MarketValue>
+			<Mass>0.08</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+			<DeteriorationRate>4</DeteriorationRate>
+			<Flammability>0.5</Flammability>
+		</statBases>
+
+		<tradeTags>
+			<li>ExoticMisc</li>
+			<li>BNF_Media</li>
+		</tradeTags>
+
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- ==================== Blank data cartridge ==================== -->
+	<ThingDef ParentName="BNF_CartridgeBase">
+		<defName>BNF_DataCartridge_Blank</defName>
+		<label>blank data cartridge</label>
+		<description>An empty writable data cartridge used for storing audio, logs, or other payloads. Ready to be recorded or written.</description>
+
+		<graphicData>
+			<texPath>Things/Item/Media/Cartridges/BNF_DataCartridge_Blank</texPath>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+
+		<stackLimit>25</stackLimit>
+
+		<statBases>
+			<MarketValue>35</MarketValue>
+			<Mass>0.07</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+
+		<tradeTags>
+			<li>ExoticMisc</li>
+			<li>BNF_Media</li>
+			<li>BNF_BlankMedia</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- ==================== Written cartridge ==================== -->
+	<ThingDef ParentName="BNF_CartridgeBase">
+		<defName>BNF_DataCartridge_Written</defName>
+		<label>written cartridge</label>
+		<description>A recorded data cartridge containing music or other audio content. Unique recordings are kept separate.</description>
+
+		<graphicData>
+			<texPath>Things/Item/Media/Cartridges/BNF_DataCartridge_Written</texPath>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+
+		<stackLimit>1</stackLimit>
+
+		<statBases>
+			<MarketValue>120</MarketValue>
+			<Mass>0.08</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+
+		<comps>
+		  <!-- Quality -->
+		  <li Class="CompProperties">
+			<compClass>CompQuality</compClass>
+		  </li>
+
+		  <!-- Art text (title/description/author) -->
+		  <li Class="CompProperties_Art">
+			<minQualityForArtistic>Awful</minQualityForArtistic>
+			<nameMaker>BNF_MusicArtName</nameMaker>
+			<descriptionMaker>ArtDescription_BNFMusic</descriptionMaker>
+		  </li>
+		</comps>
+
+		<tradeTags>
+			<li>ExoticMisc</li>
+			<li>BNF_Media</li>
+			<li>BNF_WrittenMedia</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

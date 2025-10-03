@@ -1,0 +1,79 @@
+<Defs>
+
+	<!-- ==================== Recipe: craft blank data cartridge ==================== -->
+	<RecipeDef>
+		<defName>BNF_CraftBlankDataCartridge</defName>
+		<label>craft blank data cartridge</label>
+		<description>Assemble an empty, writable data cartridge suitable for later recording.</description>
+		<workAmount>800</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>ConstructMetal</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BNF_DataCartridge_Blank>1</BNF_DataCartridge_Blank>
+		</products>
+		<workTableEfficiencyStat>WorkTableEfficiencyFactor</workTableEfficiencyStat>
+		<workTableSpeedStat>WorkTableWorkSpeedFactor</workTableSpeedStat>
+		<recipeUsers>
+			<li>TableMachining</li>
+			<li>FabricationBench</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- ==================== Recipe: write a blank into a written cartridge (Artistic) ==================== -->
+	<RecipeDef>
+		<defName>BNF_WriteDataCartridge</defName>
+		<label>write data cartridge</label>
+		<description>Record content onto a blank data cartridge. The Artistic skill influences the recording’s quality.</description>
+		<workAmount>1200</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>1.0</workSkillLearnFactor>
+		<effectWorking>ConstructMetal</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BNF_DataCartridge_Blank</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<skillRequirements>
+			<Artistic>2</Artistic>
+		</skillRequirements>
+		<products>
+			<BNF_DataCartridge_Written>1</BNF_DataCartridge_Written>
+		</products>
+		<workTableEfficiencyStat>WorkTableEfficiencyFactor</workTableEfficiencyStat>
+		<workTableSpeedStat>WorkTableWorkSpeedFactor</workTableSpeedStat>
+		<recipeUsers>
+			<li>TableSculpting</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>
