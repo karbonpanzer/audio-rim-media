@@ -3,154 +3,75 @@
   <!-- NAME MAKER -->
   <RulePackDef>
     <defName>BNF_MusicArtName</defName>
-    <!-- If you later add shared helpers, you can include them here. Safe to omit for now. -->
-    <!-- <include><li>ArtNameUtility</li></include> -->
+    <label>BNF music art name</label>
     <rulePack>
       <rulesStrings>
-
-        <!-- Root -->
+        <!-- ROOT -->
         <li>r_art_name->[bnf_title_form]</li>
 
-        <!-- Title forms -->
-        <li>bnf_title_form->[bnf_adj] [bnf_noun]</li>
-        <li>bnf_title_form->[bnf_adj] [bnf_noun] [bnf_roman]</li>
-        <li>bnf_title_form->[bnf_noun] [bnf_roman]</li>
-        <li>bnf_title_form->[bnf_noun]: [bnf_subtitle]</li>
-        <li>bnf_title_form->[bnf_place] [bnf_noun]</li>
-        <li>bnf_title_form->[bnf_time] [bnf_noun]</li>
-        <li>bnf_title_form->[bnf_adj] [bnf_place] [bnf_noun]</li>
-        <li>bnf_title_form->[bnf_color] [bnf_noun]</li>
-        <li>bnf_title_form->[bnf_noun] of [bnf_place]</li>
-        <li>bnf_title_form->[bnf_noun] of [bnf_concept]</li>
-        <li>bnf_title_form>[bnf_two_word_combo]</li>
+        <!-- Forms (keep them simple/robust first) -->
+        <li>bnf_title_form->[bnf_two_word_combo]</li>
+        <li>bnf_title_form->[bnf_two_word_combo_alt]</li>
+        <li>bnf_title_form->[bnf_of_form]</li>
+        <li>bnf_title_form->[bnf_dash_form]</li>
 
-        <!-- Two-word combos for extra variety -->
-        <li>bnf_two_word_combo->[bnf_adj] [bnf_tech]</li>
-        <li>bnf_two_word_combo->[bnf_adj] [bnf_place]</li>
-        <li>bnf_two_word_combo->[bnf_concept] [bnf_noun]</li>
+        <!-- Form implementations -->
+        <li>bnf_two_word_combo->[bnf_word_a] [bnf_word_b]</li>
+        <li>bnf_two_word_combo_alt->[bnf_word_b] [bnf_word_a]</li>
+        <li>bnf_of_form->[bnf_word_a] of [bnf_word_c]</li>
+        <li>bnf_dash_form->[bnf_word_a] – [bnf_word_c]</li>
 
-        <!-- Adjectives -->
-        <li>bnf_adj->Dusty</li>
-        <li>bnf_adj->Warped</li>
-        <li>bnf_adj->Distorted</li>
-        <li>bnf_adj->Lo-Fi</li>
-        <li>bnf_adj->Bootleg</li>
-        <li>bnf_adj->Glitchy</li>
-        <li>bnf_adj->Raw</li>
-        <li>bnf_adj->Abrasive</li>
-        <li>bnf_adj->Hissing</li>
-        <li>bnf_adj->Fluttering</li>
-        <li>bnf_adj->Tinny</li>
-        <li>bnf_adj->Noisy</li>
-        <li>bnf_adj->Crackling</li>
-        <li>bnf_adj->Muffled</li>
-        <li>bnf_adj->Fuzzy</li>
-        <li>bnf_adj->Vintage</li>
-        <li>bnf_adj->Gritty</li>
-        <li>bnf_adj->Bright</li>
-        <li>bnf_adj->Warm</li>
-        <li>bnf_adj->Tape-Worn</li>
-        <li>bnf_adj->Field-Recorded</li>
-        <li>bnf_adj->Live</li>
-        <li>bnf_adj->Basement</li>
-        <li>bnf_adj->Bunker</li>
-        <li>bnf_adj->Orbital</li>
-        <li>bnf_adj->Shipboard</li>
+        <!-- Word banks (no pipes; one per li) -->
+        <!-- A: adjectives / evocative modifiers -->
+        <li>bnf_word_a>Dusty</li>
+        <li>bnf_word_a>Warped</li>
+        <li>bnf_word_a>Fluttering</li>
+        <li>bnf_word_a>Electric</li>
+        <li>bnf_word_a>Neon</li>
+        <li>bnf_word_a>Rust</li>
+        <li>bnf_word_a>Cold</li>
+        <li>bnf_word_a>Amber</li>
+        <li>bnf_word_a>Midnight</li>
+        <li>bnf_word_a>Satellite</li>
+        <li>bnf_word_a>Frontier</li>
+        <li>bnf_word_a>Grainy</li>
+        <li>bnf_word_a>Broken</li>
+        <li>bnf_word_a>Chrome</li>
+        <li>bnf_word_a>Echo</li>
 
-        <!-- Nouns (music-y but generic) -->
-        <li>bnf_noun->Tape</li>
-        <li>bnf_noun->Session</li>
-        <li>bnf_noun->Demo</li>
-        <li>bnf_noun->Pressing</li>
-        <li>bnf_noun->Cut</li>
-        <li>bnf_noun->Take</li>
-        <li>bnf_noun->Mix</li>
-        <li>bnf_noun->Recording</li>
-        <li>bnf_noun->Reel</li>
-        <li>bnf_noun->Performance</li>
-        <li>bnf_noun->Live Cut</li>
-        <li>bnf_noun->Outtake</li>
-        <li>bnf_noun->Compilation</li>
-        <li>bnf_noun->Single</li>
-        <li>bnf_noun->Set</li>
-        <li>bnf_noun->Tracks</li>
+        <!-- B: short nouns -->
+        <li>bnf_word_b>Tape</li>
+        <li>bnf_word_b>Cut</li>
+        <li>bnf_word_b>Mix</li>
+        <li>bnf_word_b>Session</li>
+        <li>bnf_word_b>Take</li>
+        <li>bnf_word_b>Reel</li>
+        <li>bnf_word_b>Signal</li>
+        <li>bnf_word_b>Static</li>
+        <li>bnf_word_b>Broadcast</li>
+        <li>bnf_word_b>Transmission</li>
+        <li>bnf_word_b>Outtake</li>
+        <li>bnf_word_b>Demo</li>
+        <li>bnf_word_b>Playback</li>
+        <li>bnf_word_b>Pressing</li>
+        <li>bnf_word_b>Trace</li>
 
-        <!-- Subtitles for “Noun: Subtitle” pattern -->
-        <li>bnf_subtitle->Bootleg Edition</li>
-        <li>bnf_subtitle->Frontier Mix</li>
-        <li>bnf_subtitle->Basement Masters</li>
-        <li>bnf_subtitle->Field Notes</li>
-        <li>bnf_subtitle->Tape Archive</li>
-        <li>bnf_subtitle->Rim Reels</li>
-        <li>bnf_subtitle->Rusted Heads</li>
-        <li>bnf_subtitle->Rough Drafts</li>
-        <li>bnf_subtitle->Dry Takes</li>
-        <li>bnf_subtitle->Night Cycle</li>
-        <li>bnf_subtitle->Bunker Tapes</li>
-        <li>bnf_subtitle->Maintenance Bay</li>
-
-        <!-- Simple roman numerals (adds “series” feel) -->
-        <li>bnf_roman->I</li>
-        <li>bnf_roman->II</li>
-        <li>bnf_roman->III</li>
-        <li>bnf_roman->IV</li>
-        <li>bnf_roman->V</li>
-        <li>bnf_roman->VI</li>
-        <li>bnf_roman->VII</li>
-        <li>bnf_roman->VIII</li>
-        <li>bnf_roman->IX</li>
-        <li>bnf_roman->X</li>
-
-        <!-- Places (kept generic, in-universe) -->
-        <li>bnf_place->Frontier</li>
-        <li>bnf_place->Outpost</li>
-        <li>bnf_place->Colony Hall</li>
-        <li>bnf_place->Hangar Bay</li>
-        <li>bnf_place->Bunker</li>
-        <li>bnf_place->Dormitory</li>
-        <li>bnf_place->Foundry</li>
-        <li>bnf_place->Drift Station</li>
-        <li>bnf_place->Canteen</li>
-        <li>bnf_place->Basement</li>
-        <li>bnf_place->Orbital Dock</li>
-        <li>bnf_place->Landing Pad</li>
-
-        <!-- Times/temporal flavor -->
-        <li>bnf_time->Night Shift</li>
-        <li>bnf_time->Graveyard Cycle</li>
-        <li>bnf_time->Dawn Cycle</li>
-        <li>bnf_time->Transit Hour</li>
-        <li>bnf_time->Break Time</li>
-        <li>bnf_time->Afterlight</li>
-
-        <!-- Concepts (adds “X of Y” variety) -->
-        <li>bnf_concept->Echoes</li>
-        <li>bnf_concept->Noise</li>
-        <li>bnf_concept->Signal</li>
-        <li>bnf_concept->Static</li>
-        <li>bnf_concept->Silence</li>
-        <li>bnf_concept->Rhythm</li>
-        <li>bnf_concept->Pulse</li>
-        <li>bnf_concept->Frontiers</li>
-        <li>bnf_concept->Miles</li>
-        <li>bnf_concept->Tales</li>
-
-        <!-- Colors (classic album-title spice) -->
-        <li>bnf_color->Blue</li>
-        <li>bnf_color->Rust</li>
-        <li>bnf_color->Chrome</li>
-        <li>bnf_color->Ivory</li>
-        <li>bnf_color->Amber</li>
-        <li>bnf_color->Violet</li>
-
-        <!-- Tech terms (Rim-ish) -->
-        <li>bnf_tech->Transceiver</li>
-        <li>bnf_tech->Spool</li>
-        <li>bnf_tech->Headstack</li>
-        <li>bnf_tech->Reel Motor</li>
-        <li>bnf_tech->Amp Rack</li>
-        <li>bnf_tech->Patchbay</li>
-
+        <!-- C: longer objects/places for “of” and “dash” forms -->
+        <li>bnf_word_c>the Cargo Bay</li>
+        <li>bnf_word_c>Machine Rooms</li>
+        <li>bnf_word_c>Hangar Lights</li>
+        <li>bnf_word_c>Broken Antennae</li>
+        <li>bnf_word_c>Neon Corridors</li>
+        <li>bnf_word_c>Dust Plains</li>
+        <li>bnf_word_c>Orbital Dawn</li>
+        <li>bnf_word_c>Shift Change</li>
+        <li>bnf_word_c>Cold River</li>
+        <li>bnf_word_c>Steel Roofs</li>
+        <li>bnf_word_c>Low Orbit</li>
+        <li>bnf_word_c>Maintenance Tunnels</li>
+        <li>bnf_word_c>Outpost 7</li>
+        <li>bnf_word_c>Dockside Night</li>
+        <li>bnf_word_c>Flicker Lines</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
