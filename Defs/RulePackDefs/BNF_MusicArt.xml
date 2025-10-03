@@ -3,113 +3,219 @@
   <!-- NAME MAKER -->
   <RulePackDef>
     <defName>BNF_MusicArtName</defName>
-    <include>
-      <!-- optional but matches vanilla art name behavior -->
-      <li>ArtNameUtility</li>
-    </include>
+    <!-- If you later add shared helpers, you can include them here. Safe to omit for now. -->
+    <!-- <include><li>ArtNameUtility</li></include> -->
     <rulePack>
       <rulesStrings>
-        <!-- ROOT REQUIRED BY CompArt -->
-        <li>r_art_name->[bnf_music_adjective] [bnf_music_noun]</li>
+
+        <!-- Root -->
+        <li>r_art_name->[bnf_title_form]</li>
+
+        <!-- Title forms -->
+        <li>bnf_title_form->[bnf_adj] [bnf_noun]</li>
+        <li>bnf_title_form->[bnf_adj] [bnf_noun] [bnf_roman]</li>
+        <li>bnf_title_form->[bnf_noun] [bnf_roman]</li>
+        <li>bnf_title_form->[bnf_noun]: [bnf_subtitle]</li>
+        <li>bnf_title_form->[bnf_place] [bnf_noun]</li>
+        <li>bnf_title_form->[bnf_time] [bnf_noun]</li>
+        <li>bnf_title_form->[bnf_adj] [bnf_place] [bnf_noun]</li>
+        <li>bnf_title_form->[bnf_color] [bnf_noun]</li>
+        <li>bnf_title_form->[bnf_noun] of [bnf_place]</li>
+        <li>bnf_title_form->[bnf_noun] of [bnf_concept]</li>
+        <li>bnf_title_form>[bnf_two_word_combo]</li>
+
+        <!-- Two-word combos for extra variety -->
+        <li>bnf_two_word_combo->[bnf_adj] [bnf_tech]</li>
+        <li>bnf_two_word_combo->[bnf_adj] [bnf_place]</li>
+        <li>bnf_two_word_combo->[bnf_concept] [bnf_noun]</li>
 
         <!-- Adjectives -->
-        <li>bnf_music_adjective->Dusty</li>
-        <li>bnf_music_adjective->Warped</li>
-        <li>bnf_music_adjective->Distorted</li>
-        <li>bnf_music_adjective->Lo-fi</li>
-        <li>bnf_music_adjective->Bootleg</li>
-        <li>bnf_music_adjective->Glitchy</li>
-        <li>bnf_music_adjective->Raw</li>
-        <li>bnf_music_adjective->Abrasive</li>
-        <li>bnf_music_adjective->Hissing</li>
-        <li>bnf_music_adjective->Fluttering</li>
-        <li>bnf_music_adjective->Tinny</li>
-        <li>bnf_music_adjective->Noisy</li>
-        <li>bnf_music_adjective->Crackling</li>
-        <li>bnf_music_adjective->Muffled</li>
-        <li>bnf_music_adjective->Fuzzy</li>
-        <li>bnf_music_adjective->Vintage</li>
-        <li>bnf_music_adjective->Gritty</li>
-        <li>bnf_music_adjective->Clean</li>
-        <li>bnf_music_adjective->Bright</li>
-        <li>bnf_music_adjective->Warm</li>
+        <li>bnf_adj->Dusty</li>
+        <li>bnf_adj->Warped</li>
+        <li>bnf_adj->Distorted</li>
+        <li>bnf_adj->Lo-Fi</li>
+        <li>bnf_adj->Bootleg</li>
+        <li>bnf_adj->Glitchy</li>
+        <li>bnf_adj->Raw</li>
+        <li>bnf_adj->Abrasive</li>
+        <li>bnf_adj->Hissing</li>
+        <li>bnf_adj->Fluttering</li>
+        <li>bnf_adj->Tinny</li>
+        <li>bnf_adj->Noisy</li>
+        <li>bnf_adj->Crackling</li>
+        <li>bnf_adj->Muffled</li>
+        <li>bnf_adj->Fuzzy</li>
+        <li>bnf_adj->Vintage</li>
+        <li>bnf_adj->Gritty</li>
+        <li>bnf_adj->Bright</li>
+        <li>bnf_adj->Warm</li>
+        <li>bnf_adj->Tape-Worn</li>
+        <li>bnf_adj->Field-Recorded</li>
+        <li>bnf_adj->Live</li>
+        <li>bnf_adj->Basement</li>
+        <li>bnf_adj->Bunker</li>
+        <li>bnf_adj->Orbital</li>
+        <li>bnf_adj->Shipboard</li>
 
-        <!-- Nouns -->
-        <li>bnf_music_noun->Tape</li>
-        <li>bnf_music_noun->Set</li>
-        <li>bnf_music_noun->Session</li>
-        <li>bnf_music_noun->Demo</li>
-        <li>bnf_music_noun->Pressing</li>
-        <li>bnf_music_noun->Cut</li>
-        <li>bnf_music_noun->Take</li>
-        <li>bnf_music_noun->Mix</li>
-        <li>bnf_music_noun->Bootleg</li>
-        <li>bnf_music_noun->Recording</li>
-        <li>bnf_music_noun->Reel</li>
-        <li>bnf_music_noun->Performance</li>
-        <li>bnf_music_noun->Live Cut</li>
-        <li>bnf_music_noun->Outtake</li>
-        <li>bnf_music_noun->Compilation</li>
-        <li>bnf_music_noun->Single</li>
+        <!-- Nouns (music-y but generic) -->
+        <li>bnf_noun->Tape</li>
+        <li>bnf_noun->Session</li>
+        <li>bnf_noun->Demo</li>
+        <li>bnf_noun->Pressing</li>
+        <li>bnf_noun->Cut</li>
+        <li>bnf_noun->Take</li>
+        <li>bnf_noun->Mix</li>
+        <li>bnf_noun->Recording</li>
+        <li>bnf_noun->Reel</li>
+        <li>bnf_noun->Performance</li>
+        <li>bnf_noun->Live Cut</li>
+        <li>bnf_noun->Outtake</li>
+        <li>bnf_noun->Compilation</li>
+        <li>bnf_noun->Single</li>
+        <li>bnf_noun->Set</li>
+        <li>bnf_noun->Tracks</li>
+
+        <!-- Subtitles for “Noun: Subtitle” pattern -->
+        <li>bnf_subtitle->Bootleg Edition</li>
+        <li>bnf_subtitle->Frontier Mix</li>
+        <li>bnf_subtitle->Basement Masters</li>
+        <li>bnf_subtitle->Field Notes</li>
+        <li>bnf_subtitle->Tape Archive</li>
+        <li>bnf_subtitle->Rim Reels</li>
+        <li>bnf_subtitle->Rusted Heads</li>
+        <li>bnf_subtitle->Rough Drafts</li>
+        <li>bnf_subtitle->Dry Takes</li>
+        <li>bnf_subtitle->Night Cycle</li>
+        <li>bnf_subtitle->Bunker Tapes</li>
+        <li>bnf_subtitle->Maintenance Bay</li>
+
+        <!-- Simple roman numerals (adds “series” feel) -->
+        <li>bnf_roman->I</li>
+        <li>bnf_roman->II</li>
+        <li>bnf_roman->III</li>
+        <li>bnf_roman->IV</li>
+        <li>bnf_roman->V</li>
+        <li>bnf_roman->VI</li>
+        <li>bnf_roman->VII</li>
+        <li>bnf_roman->VIII</li>
+        <li>bnf_roman->IX</li>
+        <li>bnf_roman->X</li>
+
+        <!-- Places (kept generic, in-universe) -->
+        <li>bnf_place->Frontier</li>
+        <li>bnf_place->Outpost</li>
+        <li>bnf_place->Colony Hall</li>
+        <li>bnf_place->Hangar Bay</li>
+        <li>bnf_place->Bunker</li>
+        <li>bnf_place->Dormitory</li>
+        <li>bnf_place->Foundry</li>
+        <li>bnf_place->Drift Station</li>
+        <li>bnf_place->Canteen</li>
+        <li>bnf_place->Basement</li>
+        <li>bnf_place->Orbital Dock</li>
+        <li>bnf_place->Landing Pad</li>
+
+        <!-- Times/temporal flavor -->
+        <li>bnf_time->Night Shift</li>
+        <li>bnf_time->Graveyard Cycle</li>
+        <li>bnf_time->Dawn Cycle</li>
+        <li>bnf_time->Transit Hour</li>
+        <li>bnf_time->Break Time</li>
+        <li>bnf_time->Afterlight</li>
+
+        <!-- Concepts (adds “X of Y” variety) -->
+        <li>bnf_concept->Echoes</li>
+        <li>bnf_concept->Noise</li>
+        <li>bnf_concept->Signal</li>
+        <li>bnf_concept->Static</li>
+        <li>bnf_concept->Silence</li>
+        <li>bnf_concept->Rhythm</li>
+        <li>bnf_concept->Pulse</li>
+        <li>bnf_concept->Frontiers</li>
+        <li>bnf_concept->Miles</li>
+        <li>bnf_concept->Tales</li>
+
+        <!-- Colors (classic album-title spice) -->
+        <li>bnf_color->Blue</li>
+        <li>bnf_color->Rust</li>
+        <li>bnf_color->Chrome</li>
+        <li>bnf_color->Ivory</li>
+        <li>bnf_color->Amber</li>
+        <li>bnf_color->Violet</li>
+
+        <!-- Tech terms (Rim-ish) -->
+        <li>bnf_tech->Transceiver</li>
+        <li>bnf_tech->Spool</li>
+        <li>bnf_tech->Headstack</li>
+        <li>bnf_tech->Reel Motor</li>
+        <li>bnf_tech->Amp Rack</li>
+        <li>bnf_tech->Patchbay</li>
+
       </rulesStrings>
     </rulePack>
   </RulePackDef>
 
   <!-- DESCRIPTION MAKER with VANILLA FALLBACKS -->
   <RulePackDef>
-    <defName>ArtDescription_BNFMusic</defName>
+    <defName>BNF_MusicDescription</defName>
+    <label>BNF music description (expanded)</label>
     <rulePack>
       <rulesStrings>
-        <!-- Primary root used by CompArt -->
-        <li>r_art_description->[bnf_desc_root]</li>
+        <!-- Root (always 5 sentences: genre -> art1 -> art2 -> art3 -> quality) -->
+        <li>r_art_description->[bnf_desc5]</li>
+        <li>bnf_desc5->[bnf_genre_intro] [bnf_art1] [bnf_art2] [bnf_art3] [bnf_quality_line]</li>
 
-        <!-- Fallback roots some vanilla packs redirect to -->
-        <li>physical_description_root->[bnf_desc_root]</li>
-        <li>r_root->[bnf_desc_root]</li>
+        <!-- 1) Genre intro -->
+        <li>bnf_genre_intro->This is a [bnf_genre] recording captured on magnetic microtape.</li>
+        <li>bnf_genre_intro->A [bnf_genre] session preserved on a worn cartridge.</li>
+        <li>bnf_genre_intro->An archive of [bnf_genre] committed to microtape storage.</li>
+        <li>bnf_genre_intro->Recovered [bnf_genre] material pressed into a fragile cartridge.</li>
 
-        <!-- Optional: satisfy TalelessImages if it references [image] -->
-        <li>image->microtape recording</li>
+        <!-- Genres (base pool + Cowboy Bebop reference) -->
+        <li>bnf_genre->rock|jazz|classical|folk|rap|lo-fi|electronic|ambient|blues|country|metal|punk|soul|funk|industrial|post-rock|drone|experimental|western bebop</li>
 
-        <!-- Your actual description -->
-        <li>bnf_desc_root->A [bnf_style] recording captured on magnetic microtape. The sound is [bnf_texture]. [bnf_hook]</li>
+        <!-- 2–4) Art-style lines -->
+        <li>bnf_art1->Motifs [bnf_motion] while [bnf_subject] [bnf_action] [bnf_space].</li>
+        <li>bnf_art1->It sketches [bnf_poetic_image], and [bnf_subject] keeps time with [bnf_space].</li>
+        <li>bnf_art1->Fragments overlap like [bnf_poetic_image], then settle into a slow pattern.</li>
+        <li>bnf_art1->Themes rise, [bnf_motion_verb] against [bnf_space] until they dissolve.</li>
 
-        <!-- style -->
-        <li>bnf_style->field</li>
-        <li>bnf_style->studio</li>
-        <li>bnf_style->live</li>
-        <li>bnf_style->bunker</li>
-        <li>bnf_style->basement</li>
-        <li>bnf_style->shipboard</li>
-        <li>bnf_style->colony-hall</li>
-        <li>bnf_style->hangar-bay</li>
-        <li>bnf_style->cave</li>
-        <li>bnf_style->outpost</li>
-        <li>bnf_style->communal-dorm</li>
+        <li>bnf_art2->A figure returns again and again, [bnf_motion_verb] at the edge of silence.</li>
+        <li>bnf_art2->Between takes, you can almost hear [bnf_scene_detail].</li>
+        <li>bnf_art2->Lines blur; themes [bnf_motion_verb] and reform.</li>
+        <li>bnf_art2->It paints [bnf_poetic_image], only to have it vanish into static.</li>
 
-        <!-- texture -->
-        <li>bnf_texture->thin</li>
-        <li>bnf_texture->muddy</li>
-        <li>bnf_texture->harsh</li>
-        <li>bnf_texture->noisy</li>
-        <li>bnf_texture->warbly</li>
-        <li>bnf_texture->fluttering</li>
-        <li>bnf_texture->uneven</li>
-        <li>bnf_texture->crisp</li>
-        <li>bnf_texture->surprisingly clear</li>
-        <li>bnf_texture->tape-worn</li>
-        <li>bnf_texture->saturated</li>
-        <li>bnf_texture->compressed</li>
-        <li>bnf_texture->airy</li>
-        <li>bnf_texture->echoing</li>
+        <li>bnf_art3->The performance feels [bnf_mood], as if recorded [bnf_place].</li>
+        <li>bnf_art3->Despite the roughness, a [bnf_color] thread holds it together.</li>
+        <li>bnf_art3->It sways between [bnf_mood_a] and [bnf_mood_b].</li>
+        <li>bnf_art3->The arrangement seems [bnf_mood], echoing across [bnf_space].</li>
 
-        <!-- hooks -->
-        <li>bnf_hook->Credited to an unknown artist.</li>
-        <li>bnf_hook->Said to feature improvised sections.</li>
-        <li>bnf_hook->Rumored to be a single take.</li>
-        <li>bnf_hook->A local favorite among colonists.</li>
-        <li>bnf_hook->Collectors argue about its authenticity.</li>
-        <li>bnf_hook->Bits of radio chatter leak into quiet moments.</li>
-        <li>bnf_hook->Audience clatter can be heard between tracks.</li>
+        <!-- Expanded art pools -->
+        <li>bnf_subject->the melody|the rhythm|the harmony|the voice|the ensemble|the arrangement|the guitar|the synths|the percussion|the bassline|the brass|the strings</li>
+        <li>bnf_action->threads through|cuts across|rises over|flickers between|presses against|falls back into|loops around|circles|collides with|hums beneath|resonates with|erupts against</li>
+        <li>bnf_space->a low hum of machinery|the thrum of colony life|radio noise|quiet corridors|the open sky|the hull’s metal echo|a slow room reverb|stone walls|a generator drone|the night wind|steel scaffolds|cargo crates stacked high|dusty caverns|dormitory bunks</li>
+
+        <li>bnf_poetic_image->radio static over empty plains|dust drifting in projector light|wind across broken antennae|glowtubes humming at shift change|river water in moonlight|machinery echoing down long halls|a storm creeping over steel roofs|a lullaby half-remembered|the shimmer of heat above rock|a lantern guttering in the dark|cracked speakers buzzing|shadows cast by neon signs</li>
+
+        <li>bnf_motion->drift toward memory|spill into corners|circle the room|bloom and fade|stumble then steady|scatter like leaves|linger at the edges|pulse unevenly</li>
+        <li>bnf_motion_verb->drift|bloom|shiver|converge|unravel|fracture|dissolve|spiral</li>
+
+        <li>bnf_scene_detail->chairs being moved|someone counting off|a cough near the mic|footsteps in the hall|faint wind at the door|gear warming up|an engineer adjusting dials|a match being struck|murmurs before silence</li>
+
+        <li>bnf_mood->restless|unhurried|tense|intimate|searching|hypnotic|somber|bright|jubilant|melancholy|agitated|ethereal|grounded|chaotic</li>
+        <li>bnf_place->in a cargo bay|under the dome|in a basement room|beside the river|in an empty barracks|inside a maintenance tunnel|at a forgotten outpost|within a mining shaft|beneath flickering lights</li>
+        <li>bnf_color->silver|copper|amber|indigo|crimson|emerald|violet|golden|ashen</li>
+        <li>bnf_mood_a->calm|melancholy|resolve|unease|joy|chaos|clarity|suspense</li>
+        <li>bnf_mood_b->noise|anticipation|regret|heat|clarity|stillness|despair|warmth</li>
+
+        <!-- 5) Audio quality (expanded) -->
+        <li>bnf_quality_line->The fidelity is [bnf_texture], with moments of [bnf_texture_detail] peeking through.</li>
+        <li>bnf_quality_line->Overall it sounds [bnf_texture]; at times the transfer reveals [bnf_texture_detail].</li>
+        <li>bnf_quality_line->Expect a [bnf_texture] character; occasional passages bloom with [bnf_texture_detail].</li>
+        <li>bnf_quality_line->It carries a [bnf_texture] edge, softened only by flashes of [bnf_texture_detail].</li>
+
+        <li>bnf_texture->thin|muddy|harsh|warbly|fluttering|uneven|compressed|airy|clear|balanced|saturated|narrow|wide|tinny|grainy|crisp|distorted|warm|cold|fragile</li>
+        <li>bnf_texture_detail->tape warmth|unexpected clarity|soft hiss|room bloom|metallic shimmer|low-end smear|tight focus|gentle print-through|sharp transients|deep resonance|residual hum</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

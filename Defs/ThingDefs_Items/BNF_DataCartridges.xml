@@ -89,7 +89,7 @@
 		  <li Class="CompProperties_Art">
 			<minQualityForArtistic>Awful</minQualityForArtistic>
 			<nameMaker>BNF_MusicArtName</nameMaker>
-			<descriptionMaker>ArtDescription_BNFMusic</descriptionMaker>
+			<descriptionMaker>BNF_MusicDescription</descriptionMaker>
 		  </li>
 		</comps>
 
