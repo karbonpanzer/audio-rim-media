@@ -72,7 +72,7 @@
 		<workTableEfficiencyStat>WorkTableEfficiencyFactor</workTableEfficiencyStat>
 		<workTableSpeedStat>WorkTableWorkSpeedFactor</workTableSpeedStat>
 		<recipeUsers>
-			<li>TableSculpting</li>
+			<li>BNF_MusicRecordingConsole</li>
 		</recipeUsers>
 	</RecipeDef>
 
