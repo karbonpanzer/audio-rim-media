@@ -158,10 +158,11 @@
   <!-- DESCRIPTION MAKER with VANILLA FALLBACKS -->
   <RulePackDef>
     <defName>BNF_MusicDescription</defName>
-    <label>BNF music description (expanded)</label>
+    <label>BNF music description (expanded, no pipes)</label>
     <rulePack>
       <rulesStrings>
-        <!-- Root (always 5 sentences: genre -> art1 -> art2 -> art3 -> quality) -->
+
+        <!-- Root: always 5 sentences -->
         <li>r_art_description->[bnf_desc5]</li>
         <li>bnf_desc5->[bnf_genre_intro] [bnf_art1] [bnf_art2] [bnf_art3] [bnf_quality_line]</li>
 
@@ -171,10 +172,28 @@
         <li>bnf_genre_intro->An archive of [bnf_genre] committed to microtape storage.</li>
         <li>bnf_genre_intro->Recovered [bnf_genre] material pressed into a fragile cartridge.</li>
 
-        <!-- Genres (base pool + Cowboy Bebop reference) -->
-        <li>bnf_genre->rock|jazz|classical|folk|rap|lo-fi|electronic|ambient|blues|country|metal|punk|soul|funk|industrial|post-rock|drone|experimental|western bebop</li>
+        <!-- Genres (no pipes; includes Western bebop) -->
+        <li>bnf_genre->rock</li>
+        <li>bnf_genre->jazz</li>
+        <li>bnf_genre->classical</li>
+        <li>bnf_genre->folk</li>
+        <li>bnf_genre->rap</li>
+        <li>bnf_genre->lo-fi</li>
+        <li>bnf_genre->electronic</li>
+        <li>bnf_genre->ambient</li>
+        <li>bnf_genre->blues</li>
+        <li>bnf_genre->country</li>
+        <li>bnf_genre->metal</li>
+        <li>bnf_genre->punk</li>
+        <li>bnf_genre->soul</li>
+        <li>bnf_genre->funk</li>
+        <li>bnf_genre->industrial</li>
+        <li>bnf_genre->post-rock</li>
+        <li>bnf_genre->drone</li>
+        <li>bnf_genre->experimental</li>
+        <li>bnf_genre->western bebop</li>
 
-        <!-- 2–4) Art-style lines -->
+        <!-- 2–4) Art-style sentences -->
         <li>bnf_art1->Motifs [bnf_motion] while [bnf_subject] [bnf_action] [bnf_space].</li>
         <li>bnf_art1->It sketches [bnf_poetic_image], and [bnf_subject] keeps time with [bnf_space].</li>
         <li>bnf_art1->Fragments overlap like [bnf_poetic_image], then settle into a slow pattern.</li>
@@ -190,32 +209,181 @@
         <li>bnf_art3->It sways between [bnf_mood_a] and [bnf_mood_b].</li>
         <li>bnf_art3->The arrangement seems [bnf_mood], echoing across [bnf_space].</li>
 
-        <!-- Expanded art pools -->
-        <li>bnf_subject->the melody|the rhythm|the harmony|the voice|the ensemble|the arrangement|the guitar|the synths|the percussion|the bassline|the brass|the strings</li>
-        <li>bnf_action->threads through|cuts across|rises over|flickers between|presses against|falls back into|loops around|circles|collides with|hums beneath|resonates with|erupts against</li>
-        <li>bnf_space->a low hum of machinery|the thrum of colony life|radio noise|quiet corridors|the open sky|the hull’s metal echo|a slow room reverb|stone walls|a generator drone|the night wind|steel scaffolds|cargo crates stacked high|dusty caverns|dormitory bunks</li>
+        <!-- Expanded art pools (no pipes) -->
+        <li>bnf_subject->the melody</li>
+        <li>bnf_subject->the rhythm</li>
+        <li>bnf_subject->the harmony</li>
+        <li>bnf_subject->the voice</li>
+        <li>bnf_subject->the ensemble</li>
+        <li>bnf_subject->the arrangement</li>
+        <li>bnf_subject->the guitar</li>
+        <li>bnf_subject->the synths</li>
+        <li>bnf_subject->the percussion</li>
+        <li>bnf_subject->the bassline</li>
+        <li>bnf_subject->the brass</li>
+        <li>bnf_subject->the strings</li>
 
-        <li>bnf_poetic_image->radio static over empty plains|dust drifting in projector light|wind across broken antennae|glowtubes humming at shift change|river water in moonlight|machinery echoing down long halls|a storm creeping over steel roofs|a lullaby half-remembered|the shimmer of heat above rock|a lantern guttering in the dark|cracked speakers buzzing|shadows cast by neon signs</li>
+        <li>bnf_action->threads through</li>
+        <li>bnf_action->cuts across</li>
+        <li>bnf_action->rises over</li>
+        <li>bnf_action->flickers between</li>
+        <li>bnf_action->presses against</li>
+        <li>bnf_action->falls back into</li>
+        <li>bnf_action->loops around</li>
+        <li>bnf_action->circles</li>
+        <li>bnf_action->collides with</li>
+        <li>bnf_action->hums beneath</li>
+        <li>bnf_action->resonates with</li>
+        <li>bnf_action->erupts against</li>
 
-        <li>bnf_motion->drift toward memory|spill into corners|circle the room|bloom and fade|stumble then steady|scatter like leaves|linger at the edges|pulse unevenly</li>
-        <li>bnf_motion_verb->drift|bloom|shiver|converge|unravel|fracture|dissolve|spiral</li>
+        <li>bnf_space->a low hum of machinery</li>
+        <li>bnf_space->the thrum of colony life</li>
+        <li>bnf_space->radio noise</li>
+        <li>bnf_space->quiet corridors</li>
+        <li>bnf_space->the open sky</li>
+        <li>bnf_space->the hull’s metal echo</li>
+        <li>bnf_space->a slow room reverb</li>
+        <li>bnf_space->stone walls</li>
+        <li>bnf_space->a generator drone</li>
+        <li>bnf_space->the night wind</li>
+        <li>bnf_space->steel scaffolds</li>
+        <li>bnf_space->cargo crates stacked high</li>
+        <li>bnf_space->dusty caverns</li>
+        <li>bnf_space->dormitory bunks</li>
 
-        <li>bnf_scene_detail->chairs being moved|someone counting off|a cough near the mic|footsteps in the hall|faint wind at the door|gear warming up|an engineer adjusting dials|a match being struck|murmurs before silence</li>
+        <li>bnf_poetic_image->radio static over empty plains</li>
+        <li>bnf_poetic_image->dust drifting in projector light</li>
+        <li>bnf_poetic_image->wind across broken antennae</li>
+        <li>bnf_poetic_image->glowtubes humming at shift change</li>
+        <li>bnf_poetic_image->river water in moonlight</li>
+        <li>bnf_poetic_image->machinery echoing down long halls</li>
+        <li>bnf_poetic_image->a storm creeping over steel roofs</li>
+        <li>bnf_poetic_image->a lullaby half-remembered</li>
+        <li>bnf_poetic_image->the shimmer of heat above rock</li>
+        <li>bnf_poetic_image->a lantern guttering in the dark</li>
+        <li>bnf_poetic_image->cracked speakers buzzing</li>
+        <li>bnf_poetic_image->shadows cast by neon signs</li>
 
-        <li>bnf_mood->restless|unhurried|tense|intimate|searching|hypnotic|somber|bright|jubilant|melancholy|agitated|ethereal|grounded|chaotic</li>
-        <li>bnf_place->in a cargo bay|under the dome|in a basement room|beside the river|in an empty barracks|inside a maintenance tunnel|at a forgotten outpost|within a mining shaft|beneath flickering lights</li>
-        <li>bnf_color->silver|copper|amber|indigo|crimson|emerald|violet|golden|ashen</li>
-        <li>bnf_mood_a->calm|melancholy|resolve|unease|joy|chaos|clarity|suspense</li>
-        <li>bnf_mood_b->noise|anticipation|regret|heat|clarity|stillness|despair|warmth</li>
+        <li>bnf_motion->drift toward memory</li>
+        <li>bnf_motion->spill into corners</li>
+        <li>bnf_motion->circle the room</li>
+        <li>bnf_motion->bloom and fade</li>
+        <li>bnf_motion->stumble then steady</li>
+        <li>bnf_motion->scatter like leaves</li>
+        <li>bnf_motion->linger at the edges</li>
+        <li>bnf_motion->pulse unevenly</li>
 
-        <!-- 5) Audio quality (expanded) -->
+        <li>bnf_motion_verb->drift</li>
+        <li>bnf_motion_verb->bloom</li>
+        <li>bnf_motion_verb->shiver</li>
+        <li>bnf_motion_verb->converge</li>
+        <li>bnf_motion_verb->unravel</li>
+        <li>bnf_motion_verb->fracture</li>
+        <li>bnf_motion_verb->dissolve</li>
+        <li>bnf_motion_verb->spiral</li>
+
+        <li>bnf_scene_detail->chairs being moved</li>
+        <li>bnf_scene_detail->someone counting off</li>
+        <li>bnf_scene_detail->a cough near the mic</li>
+        <li>bnf_scene_detail->footsteps in the hall</li>
+        <li>bnf_scene_detail->faint wind at the door</li>
+        <li>bnf_scene_detail->gear warming up</li>
+        <li>bnf_scene_detail->an engineer adjusting dials</li>
+        <li>bnf_scene_detail->a match being struck</li>
+        <li>bnf_scene_detail->murmurs before silence</li>
+
+        <li>bnf_mood->restless</li>
+        <li>bnf_mood->unhurried</li>
+        <li>bnf_mood->tense</li>
+        <li>bnf_mood->intimate</li>
+        <li>bnf_mood->searching</li>
+        <li>bnf_mood->hypnotic</li>
+        <li>bnf_mood->somber</li>
+        <li>bnf_mood->bright</li>
+        <li>bnf_mood->jubilant</li>
+        <li>bnf_mood->melancholy</li>
+        <li>bnf_mood->agitated</li>
+        <li>bnf_mood->ethereal</li>
+        <li>bnf_mood->grounded</li>
+        <li>bnf_mood->chaotic</li>
+
+        <li>bnf_place->in a cargo bay</li>
+        <li>bnf_place->under the dome</li>
+        <li>bnf_place->in a basement room</li>
+        <li>bnf_place->beside the river</li>
+        <li>bnf_place->in an empty barracks</li>
+        <li>bnf_place->inside a maintenance tunnel</li>
+        <li>bnf_place->at a forgotten outpost</li>
+        <li>bnf_place->within a mining shaft</li>
+        <li>bnf_place->beneath flickering lights</li>
+
+        <li>bnf_color->silver</li>
+        <li>bnf_color->copper</li>
+        <li>bnf_color->amber</li>
+        <li>bnf_color->indigo</li>
+        <li>bnf_color->crimson</li>
+        <li>bnf_color->emerald</li>
+        <li>bnf_color->violet</li>
+        <li>bnf_color->golden</li>
+        <li>bnf_color->ashen</li>
+
+        <li>bnf_mood_a->calm</li>
+        <li>bnf_mood_a->melancholy</li>
+        <li>bnf_mood_a->resolve</li>
+        <li>bnf_mood_a->unease</li>
+        <li>bnf_mood_a->joy</li>
+        <li>bnf_mood_a->chaos</li>
+        <li>bnf_mood_a->clarity</li>
+        <li>bnf_mood_a->suspense</li>
+
+        <li>bnf_mood_b->noise</li>
+        <li>bnf_mood_b->anticipation</li>
+        <li>bnf_mood_b->regret</li>
+        <li>bnf_mood_b->heat</li>
+        <li>bnf_mood_b->clarity</li>
+        <li>bnf_mood_b->stillness</li>
+        <li>bnf_mood_b->despair</li>
+        <li>bnf_mood_b->warmth</li>
+
+        <!-- 5) Audio quality (no pipes) -->
         <li>bnf_quality_line->The fidelity is [bnf_texture], with moments of [bnf_texture_detail] peeking through.</li>
         <li>bnf_quality_line->Overall it sounds [bnf_texture]; at times the transfer reveals [bnf_texture_detail].</li>
         <li>bnf_quality_line->Expect a [bnf_texture] character; occasional passages bloom with [bnf_texture_detail].</li>
         <li>bnf_quality_line->It carries a [bnf_texture] edge, softened only by flashes of [bnf_texture_detail].</li>
 
-        <li>bnf_texture->thin|muddy|harsh|warbly|fluttering|uneven|compressed|airy|clear|balanced|saturated|narrow|wide|tinny|grainy|crisp|distorted|warm|cold|fragile</li>
-        <li>bnf_texture_detail->tape warmth|unexpected clarity|soft hiss|room bloom|metallic shimmer|low-end smear|tight focus|gentle print-through|sharp transients|deep resonance|residual hum</li>
+        <li>bnf_texture->thin</li>
+        <li>bnf_texture->muddy</li>
+        <li>bnf_texture->harsh</li>
+        <li>bnf_texture->warbly</li>
+        <li>bnf_texture->fluttering</li>
+        <li>bnf_texture->uneven</li>
+        <li>bnf_texture->compressed</li>
+        <li>bnf_texture->airy</li>
+        <li>bnf_texture->clear</li>
+        <li>bnf_texture->balanced</li>
+        <li>bnf_texture->saturated</li>
+        <li>bnf_texture->narrow</li>
+        <li>bnf_texture->wide</li>
+        <li>bnf_texture->tinny</li>
+        <li>bnf_texture->grainy</li>
+        <li>bnf_texture->crisp</li>
+        <li>bnf_texture->distorted</li>
+        <li>bnf_texture->warm</li>
+        <li>bnf_texture->cold</li>
+        <li>bnf_texture->fragile</li>
+
+        <li>bnf_texture_detail->tape warmth</li>
+        <li>bnf_texture_detail->unexpected clarity</li>
+        <li>bnf_texture_detail->soft hiss</li>
+        <li>bnf_texture_detail->room bloom</li>
+        <li>bnf_texture_detail->metallic shimmer</li>
+        <li>bnf_texture_detail->low-end smear</li>
+        <li>bnf_texture_detail->tight focus</li>
+        <li>bnf_texture_detail->gentle print-through</li>
+        <li>bnf_texture_detail->sharp transients</li>
+        <li>bnf_texture_detail->deep resonance</li>
+        <li>bnf_texture_detail->residual hum</li>
+
       </rulesStrings>
     </rulePack>
   </RulePackDef>
