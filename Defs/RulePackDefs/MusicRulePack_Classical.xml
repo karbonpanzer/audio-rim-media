@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs><RulePackDef>
+    <defName>MusicDesc_Classical</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root-&gt;A collection of composed pieces emphasizing form, tone, and orchestral clarity.</li>
+        <li>physical_description_root-&gt;Refined arrangements with attention to dynamics and instrumental color.</li>
+      <li>r_middle_sentence_1-&gt;Motifs are developed with careful counterpoint and balance.</li><li>r_middle_sentence_2-&gt;Orchestration emphasizes a dialogue between sections.</li><li>r_middle_sentence_3-&gt;The dynamics are drawn with careful shading and intent.</li><li>r_middle_sentence_4-&gt;Themes return and rework across movements.</li><li>r_middle_sentence_5-&gt;Texture shifts highlight contrasting timbres and registers.</li><li>r_middle_sentence_6-&gt;Phrasing is deliberate, favoring clarity and form.</li><li>r_middle_sentence-&gt;Motifs are developed with careful counterpoint and balance.</li><li>r_middle_sentence-&gt;Orchestration emphasizes a dialogue between sections.</li><li>r_middle_sentence-&gt;The dynamics are drawn with careful shading and intent.</li><li>r_middle_sentence-&gt;Themes return and rework across movements.</li><li>r_middle_sentence-&gt;Texture shifts highlight contrasting timbres and registers.</li><li>r_middle_sentence-&gt;Phrasing is deliberate, favoring clarity and form.</li><li>r_sound_quality_sentence-&gt;The recording quality reads as {QualityAdjective} for its era.</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MusicName_Classical</defName>
+    <include>
+      <li>Music_Common_Nouns</li>
+      <li>MusicName_GenericPattern</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name-&gt;[name]</li>
+        <li>name-&gt;[Noun] for [Noun]</li>
+        <li>Noun-&gt;Concerto</li>
+        <li>Noun-&gt;Nocturne</li>
+      <li>name-&gt;The [Adj] [Noun]</li><li>name-&gt;[Adj] [Noun]</li><li>name-&gt;[Noun] of [Noun]</li><li>name-&gt;[Adj] [Noun] Vol. [Number]</li><li>Adj-&gt;classic</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>

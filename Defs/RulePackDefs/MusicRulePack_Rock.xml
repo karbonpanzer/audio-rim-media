@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs><RulePackDef>
+    <defName>MusicDesc_Rock</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root-&gt;Guitar-driven music with strong rhythm and presence, powerful drums and direct vocals that push the songs forward.</li>
+        <li>physical_description_root-&gt;Raw textures and energetic performances define the record, with distorted tones and memorable hooks.</li>
+      <li>r_middle_sentence_1-&gt;Riffs and choruses are written for maximum singalong impact.</li><li>r_middle_sentence_2-&gt;Guitars are front-and-center with a raw tonal edge.</li><li>r_middle_sentence_3-&gt;Rhythmic drive gives the record an aggressive forward motion.</li><li>r_middle_sentence_4-&gt;Live-feel production captures the energy of performance.</li><li>r_middle_sentence_5-&gt;Vocals cut through with both grit and melody.</li><li>r_middle_sentence_6-&gt;The arrangements lean on dynamic contrast between verse and chorus.</li><li>r_middle_sentence-&gt;Riffs and choruses are written for maximum singalong impact.</li><li>r_middle_sentence-&gt;Guitars are front-and-center with a raw tonal edge.</li><li>r_middle_sentence-&gt;Rhythmic drive gives the record an aggressive forward motion.</li><li>r_middle_sentence-&gt;Live-feel production captures the energy of performance.</li><li>r_middle_sentence-&gt;Vocals cut through with both grit and melody.</li><li>r_middle_sentence-&gt;The arrangements lean on dynamic contrast between verse and chorus.</li><li>r_sound_quality_sentence-&gt;The recording quality reads as {QualityAdjective} for its era.</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MusicName_Rock</defName>
+    <include>
+      <li>Music_Common_Adjectives</li>
+      <li>Music_Common_Nouns</li>
+      <li>MusicName_GenericPattern</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name-&gt;[name]</li>
+        <li>name-&gt;[Adj] [Noun]</li>
+        <li>Adj-&gt;riotous</li>
+        <li>Adj-&gt;rusted</li>
+        <li>Noun-&gt;Anthem</li>
+        <li>Noun-&gt;Riff</li>
+      <li>name-&gt;The [Adj] [Noun]</li><li>name-&gt;[Noun] of [Noun]</li><li>name-&gt;[Adj] [Noun] Vol. [Number]</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>

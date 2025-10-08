@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>RR_Music</defName>
+    <label>music</label>            <!-- short name shown in UI -->
+    <description>Recorded albums and music cartridges</description>
+    <!-- Parent makes it appear under the Items list; change or remove parent if you want it elsewhere -->
+    <parent>Items</parent>
+  </ThingCategoryDef>
+</Defs>

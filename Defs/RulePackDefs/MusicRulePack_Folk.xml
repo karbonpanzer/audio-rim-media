@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs><RulePackDef>
+    <defName>MusicDesc_Folk</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root-&gt;Rooted in acoustic instruments and simple storytelling, this record favors warmth and intimacy.</li>
+        <li>physical_description_root-&gt;Honest lyrics and gentle arrangements support its close, human feeling.</li>
+      <li>r_middle_sentence_1-&gt;Acoustic players and honest vocals keep the production warm.</li><li>r_middle_sentence_2-&gt;Simple arrangements foreground melody and narrative.</li><li>r_middle_sentence_3-&gt;The record feels rooted in place and tradition.</li><li>r_middle_sentence_4-&gt;Stories are told plainly with ornamentation kept spare.</li><li>r_middle_sentence_5-&gt;Performance imperfections enhance the human quality.</li><li>r_middle_sentence_6-&gt;Instrumentation favors strings, woodwinds and hand percussion.</li><li>r_middle_sentence-&gt;Acoustic players and honest vocals keep the production warm.</li><li>r_middle_sentence-&gt;Simple arrangements foreground melody and narrative.</li><li>r_middle_sentence-&gt;The record feels rooted in place and tradition.</li><li>r_middle_sentence-&gt;Stories are told plainly with ornamentation kept spare.</li><li>r_middle_sentence-&gt;Performance imperfections enhance the human quality.</li><li>r_middle_sentence-&gt;Instrumentation favors strings, woodwinds and hand percussion.</li><li>r_sound_quality_sentence-&gt;The recording quality reads as {QualityAdjective} for its era.</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MusicName_Folk</defName>
+    <include>
+      <li>Music_Common_Nouns</li>
+      <li>MusicName_GenericPattern</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name-&gt;[name]</li>
+        <li>name-&gt;[Adj] [Noun]</li>
+        <li>Adj-&gt;earthy</li>
+        <li>Noun-&gt;Ballad</li>
+      <li>name-&gt;The [Adj] [Noun]</li><li>name-&gt;[Noun] of [Noun]</li><li>name-&gt;[Adj] [Noun] Vol. [Number]</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>

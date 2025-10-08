@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JoyGiverDef>
+    <defName>RR_ListenAlbum</defName>
+    <giverClass>RimRadio.JoyGiver_ListenAlbum</giverClass>
+    <joyKind>Meditative</joyKind>
+    <baseChance>1.0</baseChance>
+    <desireSit>False</desireSit>
+    <unroofedOnly>False</unroofedOnly>
+    <thingDefs />
+  </JoyGiverDef>
+</Defs>

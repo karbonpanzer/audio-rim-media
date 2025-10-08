@@ -1,9 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>BNF Blank Data Cartridge Base</name>
-	<author>ChatGPT (generated)</author>
-	<packageId>com.bnf.blankdatacartridge</packageId>
-	<description>Minimal base mod providing a blank data cartridge item and a recipe. Use this as a single-item base to iterate on.</description>
-	<supportedVersions>
-		<li>1.6</li>
-	</supportedVersions>
+  <name>Rim-Radio</name>
+  <packageId>kp.rimradio</packageId>
+  <author>karbonpanzer</author>
+  <url>https://github.com/your/repo</url>
+  <description>Create, compose, and listen to data-cartridge albums. Cartridges act like books for recreation and can give temporary buffs.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
 </ModMetaData>

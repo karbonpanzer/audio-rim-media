@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs><RulePackDef>
+    <defName>MusicDesc_Jazz</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root-&gt;Improvisation and close interplay between instruments, with warm acoustic tones and conversational solos.</li>
+        <li>physical_description_root-&gt;Intimate arrangements and dynamic nuance, balancing meditative pieces and swinging numbers.</li>
+      <li>r_middle_sentence_1-&gt;Improvised solos weave through harmonic frameworks.</li><li>r_middle_sentence_2-&gt;Rhythmic interplay gives the group a lively push and pull.</li><li>r_middle_sentence_3-&gt;Brushes and soft comping underwrite delicate solos.</li><li>r_middle_sentence_4-&gt;Harmonic colors shift with expressive voicings.</li><li>r_middle_sentence_5-&gt;Soloists trade ideas with conversational fluency.</li><li>r_middle_sentence_6-&gt;The session feels spontaneous yet carefully attuned.</li><li>r_middle_sentence-&gt;Improvised solos weave through harmonic frameworks.</li><li>r_middle_sentence-&gt;Rhythmic interplay gives the group a lively push and pull.</li><li>r_middle_sentence-&gt;Brushes and soft comping underwrite delicate solos.</li><li>r_middle_sentence-&gt;Harmonic colors shift with expressive voicings.</li><li>r_middle_sentence-&gt;Soloists trade ideas with conversational fluency.</li><li>r_middle_sentence-&gt;The session feels spontaneous yet carefully attuned.</li><li>r_sound_quality_sentence-&gt;The recording quality reads as {QualityAdjective} for its era.</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MusicName_Jazz</defName>
+    <include>
+      <li>Music_Common_Adjectives</li>
+      <li>Music_Common_Nouns</li>
+      <li>MusicName_GenericPattern</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name-&gt;[name]</li>
+        <li>name-&gt;[Adj] [Noun]</li>
+        <li>Adj-&gt;smoky</li>
+        <li>Adj-&gt;blue</li>
+        <li>Noun-&gt;Quartet</li>
+        <li>Noun-&gt;Nocturne</li>
+      <li>name-&gt;The [Adj] [Noun]</li><li>name-&gt;[Noun] of [Noun]</li><li>name-&gt;[Adj] [Noun] Vol. [Number]</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>

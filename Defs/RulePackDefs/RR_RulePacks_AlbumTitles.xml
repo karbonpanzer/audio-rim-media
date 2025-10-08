@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_TitleRulePack</defName>
+    <rulePack>
+      <rulesStrings>
+
+        <!-- ROOTS used by CompArt/Tales -->
+        <li>art_name->[title_root]</li>
+        <li>r_art_name->[title_root]</li>
+
+        <!-- Mix compositional vs fixed -->
+        <li>title_root->[genre_prefix] [title_noun]</li>
+        <li>title_root->[title_fixed]</li>
+        <li>title_root->[title_series]</li>
+        <li>title_root->[title_place_form]</li>
+        <li>title_root->[title_time_form]</li>
+        <li>title_root->[verb_title] at [toponym]</li>
+        <li>title_root->[collection_word] from [toponym]</li>
+        <li>title_root->[descriptor] [room_word]</li>
+        <li>title_root->[gear_word] and [material_word]</li>
+        <li>title_root->[season_word] [title_noun]</li>
+        <li>title_root->[work_word] Songs</li>
+        <li>title_root->[color_word] [signal_word]</li>
+        <li>title_root->[weather_word] Over [toponym]</li>
+        <li>title_root->[verb_title] In The [room_word]</li>
+        <li>title_root->[genre_prefix] [signal_word]</li>
+
+        <!-- Fixed one-liners for spice -->
+        <li>title_fixed->Warm Machines</li>
+        <li>title_fixed->Nightshift Echoes</li>
+        <li>title_fixed->Static Garden</li>
+        <li>title_fixed->Hands and Tape</li>
+        <li>title_fixed->Work Songs</li>
+        <li>title_fixed->Tape Room Sessions</li>
+        <li>title_fixed->Dust and Hums</li>
+        <li>title_fixed->Notes for Later</li>
+        <li>title_fixed->After the Bell</li>
+        <li>title_fixed->The Long Outlet</li>
+
+        <!-- Series styles -->
+        <li>title_series->[series_word] Vol. {num}</li>
+        <li>title_series->[series_word] {num}</li>
+        <li>title_series->[series_word]: [mini_theme]</li>
+
+        <!-- Place/time molds -->
+        <li>title_place_form->[verb_title] at [site_word] [place_core]</li>
+        <li>title_place_form->[title_noun] of [toponym]</li>
+        <li>title_time_form->[descriptor] [time_word]</li>
+
+        <!-- Genre “feel” label that flavors titles -->
+        <li>genre_prefix->Ambient</li>
+        <li>genre_prefix->Acoustic</li>
+        <li>genre_prefix->Analog</li>
+        <li>genre_prefix->Drone</li>
+        <li>genre_prefix->Folk</li>
+        <li>genre_prefix->Jazz</li>
+        <li>genre_prefix->Noise</li>
+        <li>genre_prefix->Pop</li>
+        <li>genre_prefix->Rock</li>
+        <li>genre_prefix->Tape</li>
+        <li>genre_prefix->Synth</li>
+        <li>genre_prefix->Field</li>
+        <li>genre_prefix->Industrial</li>
+        <li>genre_prefix->Piano</li>
+        <li>genre_prefix->Tribal</li>
+        <li>genre_prefix->Psyche</li>
+        <li>genre_prefix->Minimal</li>
+        <li>genre_prefix->Electronic</li>
+        <li>genre_prefix->Orchestral</li>
+        <li>genre_prefix->Choral</li>
+        <li>genre_prefix->Blues</li>
+        <li>genre_prefix->Country</li>
+        <li>genre_prefix->Metal</li>
+        <li>genre_prefix->Dub</li>
+
+        <!-- Nouns -->
+        <li>title_noun->Studies</li>
+        <li>title_noun->Works</li>
+        <li>title_noun->Notes</li>
+        <li>title_noun->Takes</li>
+        <li>title_noun->Pieces</li>
+        <li>title_noun->Lines</li>
+        <li>title_noun->Signals</li>
+        <li>title_noun->Patterns</li>
+        <li>title_noun->Forms</li>
+        <li>title_noun->Movements</li>
+        <li>title_noun->Sketches</li>
+        <li>title_noun->Fragments</li>
+
+        <!-- Verbs -->
+        <li>verb_title->Echoes</li>
+        <li>verb_title->Songs</li>
+        <li>verb_title->Hums</li>
+        <li>verb_title->Signals</li>
+        <li>verb_title->Loops</li>
+        <li>verb_title->Themes</li>
+        <li>verb_title->Drifts</li>
+        <li>verb_title->Riffs</li>
+        <li>verb_title->Calls</li>
+        <li>verb_title->Returns</li>
+
+        <!-- Collections / series words -->
+        <li>collection_word->Notes</li>
+        <li>collection_word->Sketches</li>
+        <li>collection_word->Field Notes</li>
+        <li>collection_word->Studies</li>
+        <li>collection_word->Tapes</li>
+
+        <li>series_word->Tape Room</li>
+        <li>series_word->Late Night</li>
+        <li>series_word->Workshop</li>
+        <li>series_word->Basement</li>
+        <li>series_word->Practice Room</li>
+        <li>series_word->Yard Sessions</li>
+        <li>series_word->Bench Works</li>
+        <li>series_word->Tool Songs</li>
+
+        <!-- Places/toponyms -->
+        <li>toponym->[place_prefix] [place_core]</li>
+        <li>place_prefix->North</li>
+        <li>place_prefix->South</li>
+        <li>place_prefix->Old</li>
+        <li>place_prefix->New</li>
+        <li>place_prefix->River</li>
+        <li>place_prefix->Dust</li>
+        <li>place_prefix->Hill</li>
+        <li>place_prefix->Mill</li>
+        <li>place_prefix->Station</li>
+
+        <li>place_core->Crossing</li>
+        <li>place_core->Depot</li>
+        <li>place_core->Yard</li>
+        <li>place_core->Works</li>
+        <li>place_core->Workshop</li>
+        <li>place_core->Gate</li>
+        <li>place_core->Switch</li>
+        <li>place_core->Bay</li>
+        <li>place_core->Shed</li>
+        <li>place_core->Spur</li>
+
+        <!-- Rooms, sites, gear -->
+        <li>room_word->Workshop</li>
+        <li>room_word->Machine Room</li>
+        <li>room_word->Tape Room</li>
+        <li>room_word->Back Room</li>
+        <li>room_word->Control Room</li>
+        <li>room_word->Break Room</li>
+        <li>room_word->Booth</li>
+
+        <li>site_word->East</li>
+        <li>site_word->West</li>
+        <li>site_word->Upper</li>
+        <li>site_word->Lower</li>
+
+        <li>gear_word->Gears</li>
+        <li>gear_word->Switches</li>
+        <li>gear_word->Fans</li>
+        <li>gear_word->Motors</li>
+        <li>gear_word->Relays</li>
+
+        <li>material_word->Tape</li>
+        <li>material_word->Wire</li>
+        <li>material_word->Steel</li>
+        <li>material_word->Glass</li>
+        <li>material_word->Wood</li>
+
+        <!-- Descriptors, times, seasons, colors -->
+        <li>descriptor->Quiet</li>
+        <li>descriptor->Warm</li>
+        <li>descriptor->Steady</li>
+        <li>descriptor->Blue</li>
+        <li>descriptor->Electric</li>
+        <li>descriptor->Simple</li>
+        <li>descriptor->Plain</li>
+        <li>descriptor->Low</li>
+        <li>descriptor->Late</li>
+        <li>descriptor->Short</li>
+
+        <li>time_word->Nights</li>
+        <li>time_word->Mornings</li>
+        <li>time_word->Late Hours</li>
+        <li>time_word->Shifts</li>
+        <li>time_word->Breaks</li>
+
+        <li>season_word->Winter</li>
+        <li>season_word->Spring</li>
+        <li>season_word->Summer</li>
+        <li>season_word->Autumn</li>
+
+        <li>color_word->Gray</li>
+        <li>color_word->Amber</li>
+        <li>color_word->Rust</li>
+        <li>color_word->Slate</li>
+
+        <li>signal_word->Signals</li>
+        <li>signal_word->Lines</li>
+        <li>signal_word->Patterns</li>
+        <li>signal_word->Codes</li>
+
+        <li>weather_word->Snow</li>
+        <li>weather_word->Rain</li>
+        <li>weather_word->Heat</li>
+        <li>weather_word->Wind</li>
+
+        <li>work_word->Shop</li>
+        <li>work_word->Yard</li>
+        <li>work_word->Shift</li>
+
+        <li>mini_theme->Simple Lines</li>
+        <li>mini_theme->Short Takes</li>
+        <li>mini_theme->Steel and Air</li>
+        <li>mini_theme->Quiet Ends</li>
+
+        <!-- Numbers (ASCII safe) -->
+        <li>num->I</li>
+        <li>num->II</li>
+        <li>num->III</li>
+        <li>num->IV</li>
+        <li>num->V</li>
+        <li>num->VI</li>
+        <li>num->VII</li>
+        <li>num->08</li>
+        <li>num->12</li>
+        <li>num->24</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

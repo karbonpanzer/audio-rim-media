@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs><RulePackDef>
+    <defName>MusicDesc_HipHop</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root-&gt;Focused on beats, rhythms, and lyrical delivery, often built around strong samples and groove-driven production.</li>
+        <li>physical_description_root-&gt;Vocal clarity and pocketed rhythms keep the tracks direct and head-nodding.</li>
+      <li>r_middle_sentence_1-&gt;Punchy beats and crisp sampling anchor the grooves.</li><li>r_middle_sentence_2-&gt;Vocal delivery balances cadence and lyrical detail.</li><li>r_middle_sentence_3-&gt;Production places focus on swing and pocket.</li><li>r_middle_sentence_4-&gt;Samples and textures are chopped with rhythmic intent.</li><li>r_middle_sentence_5-&gt;The bassline locks in with head-nodding steadiness.</li><li>r_middle_sentence_6-&gt;Hooks are crafted for both immediacy and repetition.</li><li>r_middle_sentence-&gt;Punchy beats and crisp sampling anchor the grooves.</li><li>r_middle_sentence-&gt;Vocal delivery balances cadence and lyrical detail.</li><li>r_middle_sentence-&gt;Production places focus on swing and pocket.</li><li>r_middle_sentence-&gt;Samples and textures are chopped with rhythmic intent.</li><li>r_middle_sentence-&gt;The bassline locks in with head-nodding steadiness.</li><li>r_middle_sentence-&gt;Hooks are crafted for both immediacy and repetition.</li><li>r_sound_quality_sentence-&gt;The recording quality reads as {QualityAdjective} for its era.</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MusicName_HipHop</defName>
+    <include>
+      <li>Music_Common_Nouns</li>
+      <li>MusicName_GenericPattern</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name-&gt;[name]</li>
+        <li>name-&gt;[Adj] [Noun]</li>
+        <li>Adj-&gt;slick</li>
+        <li>Noun-&gt;Groove</li>
+      <li>name-&gt;The [Adj] [Noun]</li><li>name-&gt;[Noun] of [Noun]</li><li>name-&gt;[Adj] [Noun] Vol. [Number]</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>

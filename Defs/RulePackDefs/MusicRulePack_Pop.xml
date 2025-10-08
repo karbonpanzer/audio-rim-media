@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs><RulePackDef>
+    <defName>MusicDesc_Pop</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root-&gt;Catchy hooks and polished arrangements aimed at broad appeal, with bright production and concise songwriting.</li>
+        <li>physical_description_root-&gt;Clean mixes and focused structures keep momentum and immediacy.</li>
+      <li>r_middle_sentence_1-&gt;Hooks are engineered to lodge in the memory quickly.</li><li>r_middle_sentence_2-&gt;Production is highly polished and radio-ready.</li><li>r_middle_sentence_3-&gt;Chord progressions favor uplift and clarity.</li><li>r_middle_sentence_4-&gt;Vocal harmonies and double-tracking boost impact.</li><li>r_middle_sentence_5-&gt;Arrangements are streamlined for maximum earworm potential.</li><li>r_middle_sentence_6-&gt;The record balances immediacy with tasteful embellishment.</li><li>r_middle_sentence-&gt;Hooks are engineered to lodge in the memory quickly.</li><li>r_middle_sentence-&gt;Production is highly polished and radio-ready.</li><li>r_middle_sentence-&gt;Chord progressions favor uplift and clarity.</li><li>r_middle_sentence-&gt;Vocal harmonies and double-tracking boost impact.</li><li>r_middle_sentence-&gt;Arrangements are streamlined for maximum earworm potential.</li><li>r_middle_sentence-&gt;The record balances immediacy with tasteful embellishment.</li><li>r_sound_quality_sentence-&gt;The recording quality reads as {QualityAdjective} for its era.</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MusicName_Pop</defName>
+    <include>
+      <li>Music_Common_Nouns</li>
+      <li>MusicName_GenericPattern</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name-&gt;[name]</li>
+        <li>name-&gt;[Adj] [Noun]</li>
+        <li>Adj-&gt;sparkling</li>
+        <li>Noun-&gt;Hit</li>
+      <li>name-&gt;The [Adj] [Noun]</li><li>name-&gt;[Noun] of [Noun]</li><li>name-&gt;[Adj] [Noun] Vol. [Number]</li></rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>
