@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Keep defName for compatibility but present as Recording across UI -->
+  <WorkTypeDef>
+    <defName>VBE_Writing</defName>
+    <label>recording</label>
+    <gerundLabel>recording</gerundLabel>
+    <pawnLabel>recorder</pawnLabel>
+    <description>Handles recording albums at the console and duplication tasks.</description>
+    <workGiversByPriority>
+      <li>VBE_DoBillsWrite</li>
+    </workGiversByPriority>
+  </WorkTypeDef>
+
+</Defs>

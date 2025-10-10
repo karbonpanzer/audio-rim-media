@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Bills target the re-skinned Recording Console via original defName -->
+  <WorkGiverDef>
+    <defName>VBE_DoBillsWrite</defName>
+    <label>record albums</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>VBE_Writing</workType>
+    <priorityInType>100</priorityInType>
+	<fixedBillGiverDefs>
+	  <li>VME_RecordingConsole</li>
+	</fixedBillGiverDefs>
+    <verb>record</verb>
+    <gerund>recording at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+</Defs>

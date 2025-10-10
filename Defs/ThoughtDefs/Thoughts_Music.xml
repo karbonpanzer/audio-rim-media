@@ -1,0 +1,48 @@
+﻿<Defs>
+
+	<ThoughtDef>
+	  <defName>RR_ListenedToAlbum_Pleased</defName>
+	  <label>enjoyed an album</label>
+	  <durationDays>0.6</durationDays>
+	  <stackLimit>1</stackLimit>
+	  <thoughtClass>Thought_Memory</thoughtClass>
+	  <stages>
+		<li>
+		  <label>pleased</label>
+		  <description>Enjoyed listening to a good album.</description>
+		  <baseMoodEffect>4</baseMoodEffect>
+		</li>
+	  </stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+	  <defName>RR_ListenedToAlbum_Thrilled</defName>
+	  <label>thrilled by music</label>
+	  <durationDays>0.8</durationDays>
+	  <stackLimit>1</stackLimit>
+	  <thoughtClass>Thought_Memory</thoughtClass>
+	  <stages>
+		<li>
+		  <label>thrilled</label>
+		  <description>An outstanding album lifted my spirits.</description>
+		  <baseMoodEffect>7</baseMoodEffect>
+		</li>
+	  </stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+	  <defName>RR_ListenedToAlbum_Disliked</defName>
+	  <label>didn't like the album</label>
+	  <durationDays>0.4</durationDays>
+	  <stackLimit>1</stackLimit>
+	  <thoughtClass>Thought_Memory</thoughtClass>
+	  <stages>
+		<li>
+		  <label>annoyed</label>
+		  <description>That album really wasn’t my taste.</description>
+		  <baseMoodEffect>-3</baseMoodEffect>
+		</li>
+	  </stages>
+	</ThoughtDef>
+
+</Defs>

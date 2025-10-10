@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Optional stubs; real assets can be mapped later -->
+  <SoundDef>
+    <defName>RR_Album_StartListening</defName>
+    <context>MapOnly</context>
+    <sustain>false</sustain>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Click</clipPath>
+          </li>
+        </grains>
+        <volumeRange>0.5~0.6</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>RR_Album_StopListening</defName>
+    <context>MapOnly</context>
+    <sustain>false</sustain>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Click</clipPath>
+          </li>
+        </grains>
+        <volumeRange>0.4~0.5</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

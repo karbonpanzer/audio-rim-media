@@ -1,0 +1,9 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Source\obj\Debug\VanillaMusicExpanded.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Source\obj\Debug\VanillaMusicExpanded.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Source\obj\Debug\VanillaMusicExpanded.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Source\obj\Debug\VanillaMusicExpanded.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Source\obj\Debug\VanillaMusicExpanded.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Assemblies\VanillaMusicExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Assemblies\VanillaMusicExpanded.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Source\obj\Debug\VanillaMusicExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Source\obj\Debug\VanillaMusicExpanded.pdb

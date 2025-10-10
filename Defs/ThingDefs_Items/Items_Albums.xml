@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Base Album item -->
+  <ThingDef ParentName="ResourceBase" Name="RR_AlbumBase" Abstract="True">
+    <defName>RR_Album</defName>
+    <label>album</label>
+    <description>A recorded music album. Colonists can listen to it for joy and genre-based mood thoughts.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/Album</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>0.5</Mass>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>false</useHitPoints>
+    <tradeability>All</tradeability>
+    <thingCategories>
+      <li>VME_Albums</li>
+    </thingCategories>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <nameMaker>ArtDescription_BookArtName</nameMaker>
+        <descriptionMaker>ArtDescription_BookArtDesc</descriptionMaker>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Rock -->
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Rock</defName>
+    <label>rock album</label>
+    <description>A rock album recorded by a colony artist. Loud, energetic, and great for morale.</description>
+  </ThingDef>
+
+  <!-- Hip-hop -->
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_HipHop</defName>
+    <label>hip-hop album</label>
+    <description>Rhythm, rhyme, and storytelling. A hip-hop album recorded by a colony artist.</description>
+  </ThingDef>
+
+  <!-- Jazz -->
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Jazz</defName>
+    <label>jazz album</label>
+    <description>Improvisational textures and smooth grooves. A jazz album recorded by a colony artist.</description>
+  </ThingDef>
+
+  <!-- Classical -->
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Classical</defName>
+    <label>classical album</label>
+    <description>Structured compositions and moving themes. A classical album recorded by a colony artist.</description>
+  </ThingDef>
+
+  <!-- Folk -->
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Folk</defName>
+    <label>folk album</label>
+    <description>Acoustic, intimate, and story-driven. A folk album recorded by a colony artist.</description>
+  </ThingDef>
+
+</Defs>

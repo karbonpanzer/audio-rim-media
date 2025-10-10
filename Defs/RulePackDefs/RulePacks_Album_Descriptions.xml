@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Primary album description maker used by RR_AlbumBase -->
+  <RulePackDef>
+    <defName>ArtDescription_BookArtDesc</defName>
+    <include>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- r_art_desc is expected by the Comp; we provide seven-sentence structure -->
+        <li>r_art_desc->[genre_intro] [tone_1] [tone_2] [tone_3] [tone_4] [tone_5] [composition_outro]</li>
+
+        <!-- Genre opener -->
+        <li>genre_intro->A [maybe_adj] collection of [maybe_album_format] pieces.</li>
+        <li>genre_intro->A [maybe_adj] set of tracks recorded on the rim.</li>
+        <li>genre_intro->A colony-made release capturing life on [AlbumPlaces].</li>
+
+        <!-- Tone sentences -->
+        <li>tone_1->It moves between [AlbumAdjectives] grooves and hushed instrumentals.</li>
+        <li>tone_2->Rhythms pulse like [AlbumNouns], while melodies trace maps of [AlbumPlaces].</li>
+        <li>tone_3->There are rough edges, tape hiss, and moments of sudden clarity.</li>
+        <li>tone_4->Improvisations drift, then lock into a steady march.</li>
+        <li>tone_5->Voices and found sounds flicker in and out like passing beacons.</li>
+
+        <!-- Outros -->
+        <li>composition_outro->The arrangement is cohesive yet hand-made, sequenced by a patient artist.</li>
+        <li>composition_outro->The composition feels lived-in and purposeful, ending in a quiet fade.</li>
+        <li>composition_outro->The final track ties the themes together before dissolving into static.</li>
+
+        <!-- Helpers -->
+        <li>maybe_adj->restless</li>
+        <li>maybe_adj->dusty</li>
+        <li>maybe_adj->electric</li>
+        <li>maybe_album_format->field-recorded</li>
+        <li>maybe_album_format->studio</li>
+        <li>maybe_album_format->live</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

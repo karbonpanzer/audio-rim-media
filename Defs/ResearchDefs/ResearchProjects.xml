@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Core recording research that unlocks the Recording Console -->
+  <ResearchProjectDef>
+    <defName>VBE_Writing</defName>
+    <label>recording</label>
+    <tab>VanillaExpanded</tab>
+    <description>Construct a recording console and let colonists track albums that can be listened to for joy and mood effects.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewY>7</researchViewY>
+    <researchViewX>3</researchViewX>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>VBE_Printing</defName>
+    <label>duplication</label>
+    <tab>VanillaExpanded</tab>
+    <description>Set up tools to duplicate recorded albums more efficiently for trade or distribution.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewY>7</researchViewY>
+    <researchViewX>4</researchViewX>
+    <prerequisites>
+      <li>VBE_Writing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

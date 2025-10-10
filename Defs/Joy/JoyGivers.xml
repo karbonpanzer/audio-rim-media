@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <JoyGiverDef>
+    <defName>VME_ListenAlbum_Giver</defName>
+    <label>listen to album</label>
+    <giverClass>VanillaMusicExpanded.JoyGiver_ListenAlbum</giverClass>
+    <baseChance>1</baseChance>
+    <jobDef>VME_ListenAlbum</jobDef>
+    <joyKind>VBE_Reading</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+
+</Defs>

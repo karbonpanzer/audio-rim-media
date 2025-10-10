@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Keep class for compatibility; update text to listening -->
+<JobDef>
+  <defName>VME_ListenAlbum</defName>
+  <driverClass>VanillaMusicExpanded.JobDriver_ListenAlbum</driverClass>
+  <reportString>listen to TargetB.</reportString>
+  <joyDuration>4000</joyDuration> <!-- can be overridden by comp -->
+  <joyKind>VBE_Reading</joyKind>
+</JobDef>
+
+</Defs>
