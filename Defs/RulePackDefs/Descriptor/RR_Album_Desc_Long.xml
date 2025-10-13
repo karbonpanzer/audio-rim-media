@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Desc_Long</defName>
+    <include>
+      <li>RR_Album_Description_Base</li>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_description->[reflective_format] [instrument_focus] [emotional_center] [production_quality] [listener_effect] [quality_line] [fadeout]</li>
+        <li>r_art_description->[kinetic_format] [sound_source] [abstract_tone] [production_quality] [quality_line] [closing_mood]</li>
+        <li>r_art_description->[reflective_format] [instrument_focus] [emotional_center] [quality_line]&#10;&#10;[atmospheric_format] [space_metaphor] [production_quality] [fadeout]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Quality_Poor</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>quality_line->Bleary levels and missed cues make it hard to follow.</li>
+        <li>quality_line->The recording is thin and distant, as if tracked from the next room.</li>
+        <li>production_quality->Lo-fi and wobbly, with instruments fighting for space.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

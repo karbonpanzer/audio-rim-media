@@ -1,144 +1,284 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <RecipeDef>
-    <defName>VME_ProduceAlbum_Rock</defName>
-    <label>record rock album</label>
-    <jobString>Recording a rock album.</jobString>
-    <workAmount>2000</workAmount>
-    <workSkill>Artistic</workSkill>
-    <workSkillLearnFactor>0.8</workSkillLearnFactor>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Sculpt</soundWorking>
-    <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-    <products>
-      <RR_Album_Rock>1</RR_Album_Rock>
-    </products>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Manufactured</li>
-          </categories>
-        </filter>
-        <count>10</count>
-      </li>
-    </ingredients>
-    <recipeUsers>
-      <li>VME_RecordingConsole</li>
-    </recipeUsers>
-  </RecipeDef>
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Rock</defName>
+		<label>record rock album</label>
+		<jobString>Recording a rock album.</jobString>
+		<workAmount>2000</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Rock>1</RR_Album_Rock>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
 
-  <RecipeDef>
-    <defName>VME_ProduceAlbum_HipHop</defName>
-    <label>record hip-hop album</label>
-    <jobString>Recording a hip-hop album.</jobString>
-    <workAmount>2000</workAmount>
-    <workSkill>Artistic</workSkill>
-    <workSkillLearnFactor>0.8</workSkillLearnFactor>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Sculpt</soundWorking>
-    <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-    <products>
-      <RR_Album_HipHop>1</RR_Album_HipHop>
-    </products>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Manufactured</li>
-          </categories>
-        </filter>
-        <count>10</count>
-      </li>
-    </ingredients>
-    <recipeUsers>
-      <li>VME_RecordingConsole</li>
-    </recipeUsers>
-  </RecipeDef>
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_HipHop</defName>
+		<label>record hip-hop album</label>
+		<jobString>Recording a hip-hop album.</jobString>
+		<workAmount>2000</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_HipHop>1</RR_Album_HipHop>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
 
-  <RecipeDef>
-    <defName>VME_ProduceAlbum_Jazz</defName>
-    <label>record jazz album</label>
-    <jobString>Recording a jazz album.</jobString>
-    <workAmount>2000</workAmount>
-    <workSkill>Artistic</workSkill>
-    <workSkillLearnFactor>0.8</workSkillLearnFactor>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Sculpt</soundWorking>
-    <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-    <products>
-      <RR_Album_Jazz>1</RR_Album_Jazz>
-    </products>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Manufactured</li>
-          </categories>
-        </filter>
-        <count>10</count>
-      </li>
-    </ingredients>
-    <recipeUsers>
-      <li>VME_RecordingConsole</li>
-    </recipeUsers>
-  </RecipeDef>
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Jazz</defName>
+		<label>record jazz album</label>
+		<jobString>Recording a jazz album.</jobString>
+		<workAmount>2000</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Jazz>1</RR_Album_Jazz>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
 
-  <RecipeDef>
-    <defName>VME_ProduceAlbum_Classical</defName>
-    <label>record classical album</label>
-    <jobString>Recording a classical album.</jobString>
-    <workAmount>2200</workAmount>
-    <workSkill>Artistic</workSkill>
-    <workSkillLearnFactor>0.8</workSkillLearnFactor>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Sculpt</soundWorking>
-    <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-    <products>
-      <RR_Album_Classical>1</RR_Album_Classical>
-    </products>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Manufactured</li>
-          </categories>
-        </filter>
-        <count>12</count>
-      </li>
-    </ingredients>
-    <recipeUsers>
-      <li>VME_RecordingConsole</li>
-    </recipeUsers>
-  </RecipeDef>
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Classical</defName>
+		<label>record classical album</label>
+		<jobString>Recording a classical album.</jobString>
+		<workAmount>2200</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Classical>1</RR_Album_Classical>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
 
-  <RecipeDef>
-    <defName>VME_ProduceAlbum_Folk</defName>
-    <label>record folk album</label>
-    <jobString>Recording a folk album.</jobString>
-    <workAmount>1800</workAmount>
-    <workSkill>Artistic</workSkill>
-    <workSkillLearnFactor>0.8</workSkillLearnFactor>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Sculpt</soundWorking>
-    <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-    <products>
-      <RR_Album_Folk>1</RR_Album_Folk>
-    </products>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Manufactured</li>
-          </categories>
-        </filter>
-        <count>8</count>
-      </li>
-    </ingredients>
-    <recipeUsers>
-      <li>VME_RecordingConsole</li>
-    </recipeUsers>
-  </RecipeDef>
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Folk</defName>
+		<label>record folk album</label>
+		<jobString>Recording a folk album.</jobString>
+		<workAmount>1800</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Folk>1</RR_Album_Folk>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Soul</defName>
+		<label>record soul album</label>
+		<jobString>Recording a soul album.</jobString>
+		<workAmount>2000</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Soul>1</RR_Album_Soul>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Electronic</defName>
+		<label>record electronic album</label>
+		<jobString>Recording an electronic album.</jobString>
+		<workAmount>2000</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Electronic>1</RR_Album_Electronic>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Pop</defName>
+		<label>record pop album</label>
+		<jobString>Recording a pop album.</jobString>
+		<workAmount>2000</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Pop>1</RR_Album_Pop>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Metal</defName>
+		<label>record metal album</label>
+		<jobString>Recording a metal album.</jobString>
+		<workAmount>2100</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Metal>1</RR_Album_Metal>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>VME_ProduceAlbum_Country</defName>
+		<label>record country album</label>
+		<jobString>Recording a country album.</jobString>
+		<workAmount>1900</workAmount>
+		<workSkill>Artistic</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+		<products>
+			<RR_Album_Country>1</RR_Album_Country>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Manufactured</li>
+					</categories>
+				</filter>
+				<count>9</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>VME_RecordingConsole</li>
+		</recipeUsers>
+	</RecipeDef>
 
 </Defs>

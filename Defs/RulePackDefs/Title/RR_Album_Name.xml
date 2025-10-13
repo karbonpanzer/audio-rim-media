@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Name</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name->[album_title_core]</li>
+        <li>album_title_core->[album_title_adj] [album_title_noun]</li>
+        <li>album_title_core->[album_title_noun] of [album_title_place]</li>
+        <li>album_title_core->[album_title_event]</li>
+        <li>album_title_core->The [album_title_adj] [album_title_noun]</li>
+        <li>album_title_adj->Faint</li>
+        <li>album_title_adj->Electric</li>
+        <li>album_title_adj->Silent</li>
+        <li>album_title_adj->Wounded</li>
+        <li>album_title_adj->Burnished</li>
+        <li>album_title_adj->Restless</li>
+        <li>album_title_adj->Neon</li>
+        <li>album_title_adj->Dustbound</li>
+        <li>album_title_noun->Echoes</li>
+        <li>album_title_noun->Signals</li>
+        <li>album_title_noun->Shadows</li>
+        <li>album_title_noun->Horizons</li>
+        <li>album_title_noun->Embers</li>
+        <li>album_title_noun->Rooms</li>
+        <li>album_title_noun->Canyons</li>
+        <li>album_title_noun->Stories</li>
+        <li>album_title_place->the Rim</li>
+        <li>album_title_place->Winter</li>
+        <li>album_title_place->the Ruins</li>
+        <li>album_title_place->the Barrens</li>
+        <li>album_title_place->the Long Night</li>
+        <li>album_title_event->Songs for the Long Night</li>
+        <li>album_title_event->Ballads of the Barrens</li>
+        <li>album_title_event->Echoes from the Ruins</li>
+        <li>album_title_event->Signals at Dawn</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

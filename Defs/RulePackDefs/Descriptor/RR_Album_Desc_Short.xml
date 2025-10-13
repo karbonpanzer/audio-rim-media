@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Desc_Short</defName>
+    <include>
+      <li>RR_Album_Description_Base</li>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_description->[format_core] [quality_line]</li>
+        <li>r_art_description->[format_core] [closing_mood] [quality_line]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

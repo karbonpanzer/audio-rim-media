@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Quality_Masterwork</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>quality_line->Every detail is carved in relief; the room breathes with the music.</li>
+        <li>quality_line->It radiates with presence, like a hand on your shoulder guiding each phrase.</li>
+        <li>production_quality->Luxurious depth without losing immediacy.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

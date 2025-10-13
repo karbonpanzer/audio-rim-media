@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Name_Country</defName>
+    <label>Album titles - Country</label>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name->[AlbumFormats]</li>
+        <li>AlbumFormats->[AlbumFormatsA]</li>
+        <li>AlbumFormatsA->[CountryNumber] Miles to [CountryPlace]</li>
+        <li>AlbumFormatsA->Songs for [CountryPlace]</li>
+        <li>AlbumFormatsA->The [CountryAdj] [CountryNoun]</li>
+        <li>AlbumFormatsA->[CountryNoun] of [CountryPlace]</li>
+        <li>AlbumFormatsA->[CountryPerson]'s [CountryNoun]</li>
+        <li>CountryAdj->Two-Lane</li>
+        <li>CountryAdj->Dusty</li>
+        <li>CountryAdj->Granite</li>
+        <li>CountryAdj->Diesel</li>
+        <li>CountryAdj->Copper</li>
+        <li>CountryAdj->Starlit</li>
+        <li>CountryAdj->Fencepost</li>
+        <li>CountryAdj->Windworn</li>
+        <li>CountryNoun->Brakelights</li>
+        <li>CountryNoun->Fences</li>
+        <li>CountryNoun->Waystations</li>
+        <li>CountryNoun->County Lines</li>
+        <li>CountryNoun->Lunch Pails</li>
+        <li>CountryNoun->Horizon</li>
+        <li>CountryNoun->Barn Doors</li>
+        <li>CountryNoun->Tin Roofs</li>
+        <li>CountryPlace->Alexandria Road</li>
+        <li>CountryPlace->Switch Creek</li>
+        <li>CountryPlace->Blackstone</li>
+        <li>CountryPlace->Vasilevsky Flats</li>
+        <li>CountryPlace->Peckinpah County</li>
+        <li>CountryPlace->New Vallis</li>
+        <li>CountryPerson->The Rancher</li>
+        <li>CountryPerson->The Mechanic</li>
+        <li>CountryPerson->The Long-Hauler</li>
+        <li>CountryPerson->The Hand</li>
+        <li>CountryNumber->10</li>
+        <li>CountryNumber->12</li>
+        <li>CountryNumber->20</li>
+        <li>CountryNumber->50</li>
+        <li>CountryNumber->100</li>
+      </rulesStrings>
+    </rulePack>
+    <include>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+  </RulePackDef>
+</Defs>

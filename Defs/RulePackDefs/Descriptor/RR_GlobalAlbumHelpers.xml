@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_GlobalAlbumHelpers</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- Existing helper tokens (kept) -->
+        <li>emotional_center->It lingers on small victories and stubborn hope.</li>
+        <li>closing_mood->It ends in a quiet fade that feels earned.</li>
+        <li>instrument_focus->interlocking parts that leave space for silence</li>
+        <li>listener_effect->draws the listener in and won’t let go</li>
+        <li>sound_source->Built from fragments of field tapes and hum</li>
+        <li>abstract_tone->it blurs edges until memory feels present</li>
+        <li>fadeout->then dissolves into soft static.</li>
+
+        <!-- Name helpers required by RR_Album_Name_* -->
+        <li>AlbumPeople->a drifter</li>
+        <li>AlbumPeople->the foreman</li>
+        <li>AlbumPeople->a castaway</li>
+        <li>AlbumPeople->the stranger</li>
+        <li>AlbumPeople->a courier</li>
+
+        <li>AlbumNouns->Ashes</li>
+        <li>AlbumNouns->Signals</li>
+        <li>AlbumNouns->Bridges</li>
+        <li>AlbumNouns->Ruins</li>
+        <li>AlbumNouns->Echoes</li>
+        <li>AlbumNouns->Vessels</li>
+        <li>AlbumNouns->Mercy</li>
+        <li>AlbumNouns->Nightfall</li>
+
+        <li>AlbumPlaces->the Rim</li>
+        <li>AlbumPlaces->New Vallis</li>
+        <li>AlbumPlaces->Blackstone</li>
+        <li>AlbumPlaces->the Drylands</li>
+        <li>AlbumPlaces->Dock Nine</li>
+
+        <li>AlbumAdjectives->Rusted</li>
+        <li>AlbumAdjectives->Gilded</li>
+        <li>AlbumAdjectives->Silent</li>
+        <li>AlbumAdjectives->Forgotten</li>
+        <li>AlbumAdjectives->Unbroken</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

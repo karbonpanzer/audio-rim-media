@@ -9,8 +9,8 @@
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
-		<OutputPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Assemblies</OutputPath>
-		<OutDir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaMusicExpanded\Assemblies</OutDir>
+		<OutputPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rim-Radio (Rebuild)\Assemblies</OutputPath>
+		<OutDir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rim-Radio (Rebuild)\Assemblies</OutDir>
 		<Optimize>false</Optimize>
 	</PropertyGroup>	
 

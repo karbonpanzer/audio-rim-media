@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-  <!-- Base Album item -->
+  
   <ThingDef ParentName="ResourceBase" Name="RR_AlbumBase" Abstract="True">
     <defName>RR_Album</defName>
     <label>album</label>
@@ -16,20 +16,32 @@
     <statBases>
       <Mass>0.5</Mass>
       <MarketValue>60</MarketValue>
+      <MaxHitPoints>45</MaxHitPoints>
+      <DeteriorationRate>2</DeteriorationRate>
     </statBases>
+    <useHitPoints>true</useHitPoints>
     <stackLimit>1</stackLimit>
-    <useHitPoints>false</useHitPoints>
     <tradeability>All</tradeability>
     <thingCategories>
       <li>VME_Albums</li>
     </thingCategories>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Rock</defName>
+    <label>rock album</label>
+    <description>A rock album recorded by a colony artist. Loud, energetic, and great for morale.</description>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
-        <nameMaker>ArtDescription_BookArtName</nameMaker>
-        <descriptionMaker>ArtDescription_BookArtDesc</descriptionMaker>
+        <genre>Rock</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
         <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Rock</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
       </li>
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
@@ -37,39 +49,202 @@
     </comps>
   </ThingDef>
 
-  <!-- Rock -->
-  <ThingDef ParentName="RR_AlbumBase">
-    <defName>RR_Album_Rock</defName>
-    <label>rock album</label>
-    <description>A rock album recorded by a colony artist. Loud, energetic, and great for morale.</description>
-  </ThingDef>
-
-  <!-- Hip-hop -->
+  
   <ThingDef ParentName="RR_AlbumBase">
     <defName>RR_Album_HipHop</defName>
     <label>hip-hop album</label>
     <description>Rhythm, rhyme, and storytelling. A hip-hop album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Hip-hop</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_HipHop</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
   </ThingDef>
 
-  <!-- Jazz -->
+  
   <ThingDef ParentName="RR_AlbumBase">
     <defName>RR_Album_Jazz</defName>
     <label>jazz album</label>
     <description>Improvisational textures and smooth grooves. A jazz album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Jazz</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Jazz</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
   </ThingDef>
 
-  <!-- Classical -->
+  
   <ThingDef ParentName="RR_AlbumBase">
     <defName>RR_Album_Classical</defName>
     <label>classical album</label>
     <description>Structured compositions and moving themes. A classical album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Classical</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Classical</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
   </ThingDef>
 
-  <!-- Folk -->
+  
   <ThingDef ParentName="RR_AlbumBase">
     <defName>RR_Album_Folk</defName>
     <label>folk album</label>
     <description>Acoustic, intimate, and story-driven. A folk album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Folk</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Folk</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Soul</defName>
+    <label>soul album</label>
+    <description>Warm vocals and groove-focused rhythm. A soul album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Soul</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Soul</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Electronic</defName>
+    <label>electronic album</label>
+    <description>Synths, samples, and pulse-driven textures. An electronic album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Electronic</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Electronic</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Pop</defName>
+    <label>pop album</label>
+    <description>Hooks and melody-forward production. A pop album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Pop</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Pop</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Metal</defName>
+    <label>metal album</label>
+    <description>Heavy riffs and aggressive energy. A metal album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Metal</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Metal</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="RR_AlbumBase">
+    <defName>RR_Album_Country</defName>
+    <label>country album</label>
+    <description>Story songs and twangy instrumentation. A country album recorded by a colony artist.</description>
+    <comps>
+      <li Class="VanillaMusicExpanded.CompProperties_Album">
+        <genre>Country</genre>
+        <listeningTicks>1600</listeningTicks>
+        <joyAmountPerTick>0.0001</joyAmountPerTick>
+        <thoughtOnFinish>RR_ListenedToAlbum_Pleased</thoughtOnFinish>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RR_Album_Name_Country</nameMaker>
+        <descriptionMaker>RR_Album_Desc_Medium</descriptionMaker>
+      </li>
+      <li Class="CompProperties">
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
   </ThingDef>
 
 </Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Description_Base</defName>
+    <include>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- Core formats -->
+        <li>format_core->[reflective_format]</li>
+        <li>format_core->[kinetic_format]</li>
+        <li>format_core->[atmospheric_format]</li>
+
+        <!-- Formats reference genre + global tokens -->
+        <li>reflective_format->[genre_intro] [emotional_center] [closing_mood]</li>
+        <li>kinetic_format->[genre_intro] [instrument_focus] [listener_effect]</li>
+        <li>atmospheric_format->[sound_source] [abstract_tone] [fadeout]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

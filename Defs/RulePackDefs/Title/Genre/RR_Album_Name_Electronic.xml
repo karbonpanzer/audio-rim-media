@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Name_Electronic</defName>
+    <label>Album titles - Electronic</label>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name->[AlbumFormats]</li>
+        <li>AlbumFormats->[AlbumFormatsA]</li>
+        <li>AlbumFormatsA->[ElecNoun] // [ElecNoun]</li>
+        <li>AlbumFormatsA->[ElecProcess] in [ElecPlace]</li>
+        <li>AlbumFormatsA->The [ElecAdj] [ElecNoun]</li>
+        <li>AlbumFormatsA->[ElecNoun] (Version)</li>
+        <li>AlbumFormatsA->[ElecNoun]: [ElecAdj] Edit</li>
+        <li>ElecAdj->Synthetic</li>
+        <li>ElecAdj->Parallel</li>
+        <li>ElecAdj->Subharmonic</li>
+        <li>ElecAdj->Neon</li>
+        <li>ElecAdj->Vector</li>
+        <li>ElecAdj->Phase-locked</li>
+        <li>ElecAdj->Holographic</li>
+        <li>ElecAdj->Quantized</li>
+        <li>ElecNoun->Signals</li>
+        <li>ElecNoun->Frequencies</li>
+        <li>ElecNoun->Vectors</li>
+        <li>ElecNoun->Polygons</li>
+        <li>ElecNoun->Echoes</li>
+        <li>ElecNoun->Packets</li>
+        <li>ElecNoun->Circuits</li>
+        <li>ElecNoun->Datums</li>
+        <li>ElecPlace->Dock Nine</li>
+        <li>ElecPlace->Glass District</li>
+        <li>ElecPlace->Relay 7</li>
+        <li>ElecPlace->the Switchyard</li>
+        <li>ElecPlace->Archive Row</li>
+        <li>ElecProcess->Calibration</li>
+        <li>ElecProcess->Uplink</li>
+        <li>ElecProcess->Handshake</li>
+        <li>ElecProcess->Boot Sequence</li>
+        <li>ElecProcess->Reconstruction</li>
+        <li>ElecProcess->Sampling</li>
+      </rulesStrings>
+    </rulePack>
+    <include>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+  </RulePackDef>
+</Defs>

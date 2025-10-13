@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Name_Pop</defName>
+    <label>Album titles - Pop</label>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name->[AlbumFormats]</li>
+        <li>AlbumFormats->[AlbumFormatsA]</li>
+        <li>AlbumFormatsA->The [PopAdj] [PopNoun]</li>
+        <li>AlbumFormatsA->[PopNoun]: [PopAdj] Edition</li>
+        <li>AlbumFormatsA->[PopNoun] (Deluxe)</li>
+        <li>AlbumFormatsA->[PopPerson]'s [PopNoun]</li>
+        <li>AlbumFormatsA->[PopAdj] [PopNoun]</li>
+        <li>PopAdj->Neon</li>
+        <li>PopAdj->Golden</li>
+        <li>PopAdj->Stellar</li>
+        <li>PopAdj->Midnight</li>
+        <li>PopAdj->Silver</li>
+        <li>PopAdj->Heartline</li>
+        <li>PopAdj->Crystal</li>
+        <li>PopAdj->Ultra</li>
+        <li>PopNoun->Echoes</li>
+        <li>PopNoun->Secrets</li>
+        <li>PopNoun->Fireworks</li>
+        <li>PopNoun->Polaroids</li>
+        <li>PopNoun->Confetti</li>
+        <li>PopNoun->Signals</li>
+        <li>PopNoun->Lifelines</li>
+        <li>PopNoun->Mirrors</li>
+        <li>PopPlace->Glass District</li>
+        <li>PopPlace->Dock Nine</li>
+        <li>PopPlace->Starlight Row</li>
+        <li>PopPlace->Arcade Walk</li>
+        <li>PopPlace->Harborfront</li>
+        <li>PopPerson->The Newcomer</li>
+        <li>PopPerson->The Dreamer</li>
+        <li>PopPerson->The Neighbor</li>
+        <li>PopPerson->The Runaway</li>
+      </rulesStrings>
+    </rulePack>
+    <include>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Name_Blues</defName>
+    <label>Album titles - Blues</label>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name->[AlbumFormats]</li>
+        <li>AlbumFormats->[AlbumFormatsA]</li>
+        <li>AlbumFormatsA->The [BluesAdj] [BluesNoun]</li>
+        <li>AlbumFormatsA->[BluesNumber] Steps to [BluesPlace]</li>
+        <li>AlbumFormatsA->[BluesNoun] After Midnight</li>
+        <li>AlbumFormatsA->[BluesPerson]'s [BluesNoun]</li>
+        <li>AlbumFormatsA->[BluesAdj] [BluesNoun]</li>
+        <li>BluesAdj->Dusty</li>
+        <li>BluesAdj->Lowdown</li>
+        <li>BluesAdj->Hollow</li>
+        <li>BluesAdj->Copper</li>
+        <li>BluesAdj->Smokestack</li>
+        <li>BluesAdj->Railhead</li>
+        <li>BluesAdj->Lonely</li>
+        <li>BluesAdj->Muddy</li>
+        <li>BluesAdj->Late-hour</li>
+        <li>BluesAdj->Old Town</li>
+        <li>BluesNoun->Shoes</li>
+        <li>BluesNoun->Windows</li>
+        <li>BluesNoun->Crossroads</li>
+        <li>BluesNoun->Lamps</li>
+        <li>BluesNoun->Letters</li>
+        <li>BluesNoun->Riverbeds</li>
+        <li>BluesNoun->Turns</li>
+        <li>BluesNoun->Storms</li>
+        <li>BluesNoun->Hands</li>
+        <li>BluesNoun->Ghosts</li>
+        <li>BluesPlace->Dock Nine</li>
+        <li>BluesPlace->New Vallis</li>
+        <li>BluesPlace->Blackstone</li>
+        <li>BluesPlace->Cold Junction</li>
+        <li>BluesPlace->the Switchyard</li>
+        <li>BluesPlace->South Cut</li>
+        <li>BluesPerson->A Drifter</li>
+        <li>BluesPerson->The Foreman</li>
+        <li>BluesPerson->A Castaway</li>
+        <li>BluesPerson->The Stranger</li>
+        <li>BluesNumber->Twelve</li>
+        <li>BluesNumber->Nine</li>
+        <li>BluesNumber->Eight</li>
+        <li>BluesNumber->Seven</li>
+        <li>BluesNumber->Six</li>
+      </rulesStrings>
+    </rulePack>
+    <include>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+  </RulePackDef>
+</Defs>

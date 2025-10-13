@@ -56,54 +56,56 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- Album Rack (storage for albums only) -->
-  <ThingDef ParentName="BuildingBase">
-    <defName>VME_AlbumRack</defName>
-    <label>album rack</label>
-    <description>A compact rack for storing recorded music albums.</description>
-    <thingClass>Building_Storage</thingClass>
-    <graphicData>
-      <texPath>Things/Building/Misc/AlbumRack</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1.2,1.0)</drawSize>
-    </graphicData>
-    <size>(1,1)</size>
-    <altitudeLayer>Building</altitudeLayer>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MarketValue>70</MarketValue>
-      <MaxHitPoints>120</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <Mass>8</Mass>
-    </statBases>
-    <costList>
-      <WoodLog>30</WoodLog>
-    </costList>
-    <designationCategory>Furniture</designationCategory>
-    <inspectorTabs>
-      <li>ITab_Storage</li>
-    </inspectorTabs>
-    <comps>
-      <li Class="CompProperties_AffectedByFacilities"/>
-    </comps>
-    <building>
-      <fixedStorageSettings>
-        <priority>Important</priority>
-        <filter>
-          <categories>
-            <li>VME_Albums</li>
-          </categories>
-        </filter>
-      </fixedStorageSettings>
-      <defaultStorageSettings>
-        <priority>Normal</priority>
-        <filter>
-          <categories>
-            <li>VME_Albums</li>
-          </categories>
-        </filter>
-      </defaultStorageSettings>
-    </building>
-  </ThingDef>
+	<!-- Album Rack (storage for albums only) -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>VME_AlbumRack</defName>
+		<label>album rack</label>
+		<description>A compact rack for storing recorded music albums.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Misc/AlbumRack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.2,1.0)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+
+		<!-- Fix: racks should be pass-through, not impassable -->
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+
+		<statBases>
+			<MarketValue>70</MarketValue>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Mass>8</Mass>
+		</statBases>
+		<costList>
+			<WoodLog>30</WoodLog>
+		</costList>
+		<designationCategory>Furniture</designationCategory>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<building>
+			<fixedStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>VME_Albums</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Normal</priority>
+				<filter>
+					<categories>
+						<li>VME_Albums</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
 
 </Defs>

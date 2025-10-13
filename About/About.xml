@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Rim-Radio</name>
   <author>karbonpanzer</author>
-  <packageId>rimradio</packageId>
+  <packageId>kp.rimradio</packageId>
 
   <supportedVersions>
     <li>1.6</li>
