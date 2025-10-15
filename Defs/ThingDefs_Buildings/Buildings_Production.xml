@@ -57,55 +57,63 @@
   </ThingDef>
 
 	<!-- Album Rack (storage for albums only) -->
-	<ThingDef ParentName="BuildingBase">
-		<defName>VME_AlbumRack</defName>
-		<label>album rack</label>
-		<description>A compact rack for storing recorded music albums.</description>
-		<thingClass>Building_Storage</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Misc/AlbumRack</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.2,1.0)</drawSize>
-		</graphicData>
-		<size>(1,1)</size>
-		<altitudeLayer>Building</altitudeLayer>
-		<rotatable>false</rotatable>
+	<ThingDef ParentName="ShelfBase">
+	  <defName>VME_AlbumRack</defName>
+	  <label>album rack</label>
+	  <description>A compact rack for storing recorded music albums.</description>
 
-		<!-- Fix: racks should be pass-through, not impassable -->
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.5</fillPercent>
+	  <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	
+	  <drawerType>RealtimeOnly</drawerType>
+	  <surfaceType>None</surfaceType>
+	  <thingClass>Building_Storage</thingClass>
 
-		<statBases>
-			<MarketValue>70</MarketValue>
-			<MaxHitPoints>120</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<Mass>8</Mass>
-		</statBases>
-		<costList>
-			<WoodLog>30</WoodLog>
-		</costList>
-		<designationCategory>Furniture</designationCategory>
-		<inspectorTabs>
-			<li>ITab_Storage</li>
-		</inspectorTabs>
-		<building>
-			<fixedStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>VME_Albums</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Normal</priority>
-				<filter>
-					<categories>
-						<li>VME_Albums</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
+	  <graphicData>
+		<texPath>Things/Building/Misc/AlbumRack</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(1.2,1.0)</drawSize>
+	  </graphicData>
+
+	  <size>(1,1)</size>
+	  <rotatable>false</rotatable>
+	  <passability>PassThroughOnly</passability>
+	  <fillPercent>0.5</fillPercent>
+
+	  <statBases>
+		<MarketValue>70</MarketValue>
+		<MaxHitPoints>120</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<Mass>8</Mass>
+		<WorkToBuild>500</WorkToBuild>
+	  </statBases>
+
+	  <designationCategory>Furniture</designationCategory>
+
+	  <building>
+		<maxItemsInCell>1</maxItemsInCell>
+		<blueprintClass>Blueprint_StorageWithRoomHighlight</blueprintClass>
+		<fixedStorageSettings>
+		  <priority>Important</priority>
+		  <filter>
+			<categories>
+			  <li>VME_Albums</li>
+			</categories>
+		  </filter>
+		</fixedStorageSettings>
+		<defaultStorageSettings>
+		  <priority>Normal</priority>
+		  <filter>
+			<categories>
+			  <li>VME_Albums</li>
+			</categories>
+		  </filter>
+		</defaultStorageSettings>
+	  </building>
 	</ThingDef>
 
 </Defs>

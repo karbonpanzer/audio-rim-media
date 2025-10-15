@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rim-radio (rebuild)\\source\\modinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:modinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rim-radio (rebuild)\\source\\albumdescriptionbyquality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:albumdescriptionbyquality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +19,6 @@
       "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:compalbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rim-radio (rebuild)\\source\\albumrulepackutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:albumrulepackutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rim-radio (rebuild)\\source\\vanillamusicexpanded.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:vanillamusicexpanded.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -27,16 +27,20 @@
       "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:jobdriver_listenalbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rim-radio (rebuild)\\source\\thingdefextensions_album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:thingdefextensions_album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rim-radio (rebuild)\\source\\subeffecter_albumsymbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:subeffecter_albumsymbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rim-radio (rebuild)\\source\\roomroleworker_studio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7C2B8C6-7A5E-4D03-9B6E-1C5C6F8B10B1}|VanillaMusicExpanded.csproj|solutionrelative:roomroleworker_studio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\AlbumRulePackUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AlbumRulePackUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\ThingDefExtensions_Album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ThingDefExtensions_Album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\SubEffecter_AlbumSymbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SubEffecter_AlbumSymbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ModInit.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\ModInit.cs",
+              "RelativeDocumentMoniker": "ModInit.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\ModInit.cs",
+              "RelativeToolTip": "ModInit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T03:03:14.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AlbumDescriptionByQuality.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\AlbumDescriptionByQuality.cs",
               "RelativeDocumentMoniker": "AlbumDescriptionByQuality.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AlbumLabelfromArtTitle.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\AlbumLabelfromArtTitle.cs",
               "RelativeDocumentMoniker": "AlbumLabelfromArtTitle.cs",
@@ -75,12 +92,11 @@
               "RelativeToolTip": "AlbumLabelfromArtTitle.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAgwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T04:22:30.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T04:22:30.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AlbumRulePackUtility.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\AlbumRulePackUtility.cs",
               "RelativeDocumentMoniker": "AlbumRulePackUtility.cs",
@@ -88,12 +104,11 @@
               "RelativeToolTip": "AlbumRulePackUtility.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T04:22:10.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T04:22:10.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CompAlbum.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\CompAlbum.cs",
               "RelativeDocumentMoniker": "CompAlbum.cs",
@@ -101,12 +116,11 @@
               "RelativeToolTip": "CompAlbum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T13:08:49.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T13:08:49.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ThingDefExtensions_Album.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\ThingDefExtensions_Album.cs",
               "RelativeDocumentMoniker": "ThingDefExtensions_Album.cs",
@@ -118,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "RoomRoleWorker_Studio.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\RoomRoleWorker_Studio.cs",
               "RelativeDocumentMoniker": "RoomRoleWorker_Studio.cs",
@@ -130,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SubEffecter_AlbumSymbol.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\SubEffecter_AlbumSymbol.cs",
               "RelativeDocumentMoniker": "SubEffecter_AlbumSymbol.cs",
@@ -162,8 +176,7 @@
               "RelativeToolTip": "VanillaMusicExpanded.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-10T04:19:24.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T04:19:24.995Z"
             }
           ]
         }
