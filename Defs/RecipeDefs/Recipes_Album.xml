@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- Rock -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Rock</defName>
 		<label>record rock album</label>
@@ -14,21 +15,30 @@
 		<products>
 			<RR_Album_Rock>1</RR_Album_Rock>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Hip-Hop -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_HipHop</defName>
 		<label>record hip-hop album</label>
@@ -42,21 +52,30 @@
 		<products>
 			<RR_Album_HipHop>1</RR_Album_HipHop>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Jazz -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Jazz</defName>
 		<label>record jazz album</label>
@@ -70,21 +89,30 @@
 		<products>
 			<RR_Album_Jazz>1</RR_Album_Jazz>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Classical -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Classical</defName>
 		<label>record classical album</label>
@@ -98,21 +126,30 @@
 		<products>
 			<RR_Album_Classical>1</RR_Album_Classical>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>12</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Folk -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Folk</defName>
 		<label>record folk album</label>
@@ -126,21 +163,30 @@
 		<products>
 			<RR_Album_Folk>1</RR_Album_Folk>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>8</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Soul -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Soul</defName>
 		<label>record soul album</label>
@@ -154,21 +200,30 @@
 		<products>
 			<RR_Album_Soul>1</RR_Album_Soul>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Electronic -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Electronic</defName>
 		<label>record electronic album</label>
@@ -182,21 +237,30 @@
 		<products>
 			<RR_Album_Electronic>1</RR_Album_Electronic>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Pop -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Pop</defName>
 		<label>record pop album</label>
@@ -210,21 +274,30 @@
 		<products>
 			<RR_Album_Pop>1</RR_Album_Pop>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Metal -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Metal</defName>
 		<label>record metal album</label>
@@ -238,21 +311,30 @@
 		<products>
 			<RR_Album_Metal>1</RR_Album_Metal>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
+	<!-- Country -->
 	<RecipeDef>
 		<defName>VME_ProduceAlbum_Country</defName>
 		<label>record country album</label>
@@ -266,19 +348,27 @@
 		<products>
 			<RR_Album_Country>1</RR_Album_Country>
 		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Manufactured</li>
-					</categories>
-				</filter>
-				<count>9</count>
-			</li>
-		</ingredients>
 		<recipeUsers>
 			<li>VME_RecordingConsole</li>
 		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
 	</RecipeDef>
-
+	
 </Defs>
