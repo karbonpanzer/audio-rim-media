@@ -8,15 +8,19 @@
     <description>A workstation for recording music albums. Pawns can produce genre albums here using bills.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Misc/RecordingConsole</texPath>
+      <texPath>Things/Building/RecordingConsole/recordingconsole</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3.5,1.5)</drawSize>
+      <drawSize>(5,4)</drawSize>
+      <damageData>
+        <rect>(0,0,3,1.8)</rect>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
       <shadowData>
-        <volume>(2.8, 0.3, 0.54)</volume>
-        <offset>(0, 0, -0.18)</offset>
+        <volume>(3,0.5,2)</volume>
       </shadowData>
     </graphicData>
-    <size>(3,1)</size>
+    <size>(3,2)</size>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <rotatable>true</rotatable>
@@ -28,6 +32,9 @@
       <Flammability>1.0</Flammability>
       <Mass>20</Mass>
     </statBases>
+	<hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
     <costList>
       <Steel>80</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
@@ -54,6 +61,7 @@
     <researchPrerequisites>
       <li>Electricity</li>
     </researchPrerequisites>
+	
   </ThingDef>
 
 	<!-- Album Rack (storage for albums only) -->
@@ -74,7 +82,7 @@
 	  <thingClass>Building_Storage</thingClass>
 
 	  <graphicData>
-		<texPath>Things/Building/Misc/AlbumRack</texPath>
+		<texPath>Things/Building/AlbumRacks/AlbumRack</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>(1.2,1.0)</drawSize>
 	  </graphicData>
@@ -95,13 +103,13 @@
 	  <designationCategory>Furniture</designationCategory>
 
 	  <building>
-		<maxItemsInCell>1</maxItemsInCell>
+		<maxItemsInCell>5</maxItemsInCell>
 		<blueprintClass>Blueprint_StorageWithRoomHighlight</blueprintClass>
 		<fixedStorageSettings>
 		  <priority>Important</priority>
 		  <filter>
 			<categories>
-			  <li>VME_Albums</li>
+			  <li>RR_Albums</li>
 			</categories>
 		  </filter>
 		</fixedStorageSettings>
@@ -109,7 +117,7 @@
 		  <priority>Normal</priority>
 		  <filter>
 			<categories>
-			  <li>VME_Albums</li>
+			  <li>RR_Albums</li>
 			</categories>
 		  </filter>
 		</defaultStorageSettings>

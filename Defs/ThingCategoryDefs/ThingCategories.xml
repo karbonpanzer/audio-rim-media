@@ -3,7 +3,7 @@
 
   <!-- Category for all music albums -->
   <ThingCategoryDef>
-    <defName>VME_Albums</defName>
+    <defName>RR_Albums</defName>
     <label>albums</label>
     <parent>Items</parent>
   </ThingCategoryDef>

@@ -5,30 +5,26 @@
     <defName>RR_Album</defName>
     <label>album</label>
     <description>A recorded music album. Colonists can listen to it for joy and genre-based mood thoughts.</description>
-    <thingClass>ThingWithComps</thingClass>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-      <shaderType>CutoutComplex</shaderType>
-      <texPath>Things/Item/Album/Album</texPath>
-    </graphicData>
     <statBases>
       <Mass>0.5</Mass>
       <MarketValue>60</MarketValue>
       <MaxHitPoints>45</MaxHitPoints>
       <DeteriorationRate>2</DeteriorationRate>
     </statBases>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+	<tradeNeverStack>true</tradeNeverStack>	
     <useHitPoints>true</useHitPoints>
     <stackLimit>1</stackLimit>
     <tradeability>All</tradeability>
     <thingCategories>
-      <li>VME_Albums</li>
+      <li>RR_Albums</li>
     </thingCategories>
-    <comps>
-      <li>
-        <compClass>CompColorable</compClass>
-      </li>
-    </comps>
+	<graphicData>
+		<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		<allowFlip>true</allowFlip>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="RR_AlbumBase">
@@ -37,19 +33,10 @@
     <description>A rock album recorded by a colony artist. Loud, energetic, and great for morale.</description>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
-      <drawSize>1</drawSize>
+      <drawSize>0.5</drawSize>
       <shaderType>CutoutComplex</shaderType>
       <texPath>Things/Item/Album/rock</texPath>
     </graphicData>
-    <!-- Reds / rusts -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.58, 0.34, 0.34, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Rock</genre>
@@ -64,6 +51,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>
     </comps>
   </ThingDef>
 
@@ -73,19 +63,10 @@
     <description>Rhythm, rhyme, and storytelling. A hip-hop album recorded by a colony artist.</description>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
-      <drawSize>1</drawSize>
+      <drawSize>0.5</drawSize>
       <shaderType>CutoutComplex</shaderType>
       <texPath>Things/Item/Album/hiphop</texPath>
     </graphicData>
-    <!-- Ambers / golds -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.74, 0.62, 0.32, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Hip-hop</genre>
@@ -100,6 +81,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>
     </comps>
   </ThingDef>
 
@@ -107,15 +91,12 @@
     <defName>RR_Album_Jazz</defName>
     <label>jazz album</label>
     <description>Improvisational textures and smooth grooves. A jazz album recorded by a colony artist.</description>
-    <!-- Blues / teals -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.38, 0.52, 0.66, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
+	<graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/jazz</texPath>
+    </graphicData>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Jazz</genre>
@@ -130,6 +111,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>
     </comps>
   </ThingDef>
 
@@ -137,15 +121,12 @@
     <defName>RR_Album_Classical</defName>
     <label>classical album</label>
     <description>Structured compositions and moving themes. A classical album recorded by a colony artist.</description>
-    <!-- Creams / ivories -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.86, 0.82, 0.72, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
+	<graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/classical</texPath>
+    </graphicData>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Classical</genre>
@@ -160,6 +141,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>	  
     </comps>
   </ThingDef>
 
@@ -167,15 +151,12 @@
     <defName>RR_Album_Folk</defName>
     <label>folk album</label>
     <description>Acoustic, intimate, and story-driven. A folk album recorded by a colony artist.</description>
-    <!-- Greens / olives -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.52, 0.68, 0.54, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
+	<graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/folk</texPath>
+    </graphicData>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Folk</genre>
@@ -190,6 +171,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>
     </comps>
   </ThingDef>
 
@@ -197,15 +181,13 @@
     <defName>RR_Album_Soul</defName>
     <label>soul album</label>
     <description>Warm vocals and groove-focused rhythm. A soul album recorded by a colony artist.</description>
+	<graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/soul</texPath>
+    </graphicData>
     <!-- Amber / rose -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.72, 0.54, 0.60, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Soul</genre>
@@ -220,6 +202,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>
     </comps>
   </ThingDef>
 
@@ -227,15 +212,13 @@
     <defName>RR_Album_Electronic</defName>
     <label>electronic album</label>
     <description>Synths, samples, and pulse-driven textures. An electronic album recorded by a colony artist.</description>
+	<graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/electronic</texPath>
+    </graphicData>
     <!-- Teals / cyans -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.42, 0.60, 0.72, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Electronic</genre>
@@ -250,6 +233,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>
     </comps>
   </ThingDef>
 
@@ -257,15 +243,12 @@
     <defName>RR_Album_Pop</defName>
     <label>pop album</label>
     <description>Hooks and melody-forward production. A pop album recorded by a colony artist.</description>
-    <!-- Pinks / lilacs -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.64, 0.52, 0.72, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
+	<graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/pop</texPath>
+    </graphicData>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Pop</genre>
@@ -280,6 +263,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>
     </comps>
   </ThingDef>
 
@@ -287,15 +273,12 @@
     <defName>RR_Album_Metal</defName>
     <label>metal album</label>
     <description>Heavy riffs and aggressive energy. A metal album recorded by a colony artist.</description>
-    <!-- Grays / steel blue -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.46, 0.48, 0.50, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
+	<graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/metal</texPath>
+    </graphicData>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Metal</genre>
@@ -310,6 +293,9 @@
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
       </li>
+	  <li>
+        <compClass>CompColorable</compClass>
+      </li>
     </comps>
   </ThingDef>
 
@@ -317,15 +303,12 @@
     <defName>RR_Album_Country</defName>
     <label>country album</label>
     <description>Story songs and twangy instrumentation. A country album recorded by a colony artist.</description>
-    <!-- Tans / wheats -->
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.70, 0.62, 0.44, 1)</only>
-        </li>
-      </options>
-    </colorGenerator>
+	<graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Item/Album/country</texPath>
+    </graphicData>
     <comps>
       <li Class="VanillaMusicExpanded.CompProperties_Album">
         <genre>Country</genre>
@@ -339,6 +322,9 @@
       </li>
       <li Class="CompProperties">
         <compClass>CompQuality</compClass>
+      </li>
+	  <li>
+        <compClass>CompColorable</compClass>
       </li>
     </comps>
   </ThingDef>

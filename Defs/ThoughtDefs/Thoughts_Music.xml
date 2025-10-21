@@ -2,14 +2,14 @@
 
 	<ThoughtDef>
 	  <defName>RR_ListenedToAlbum_Pleased</defName>
-	  <label>enjoyed an album</label>
+	  <label>enjoyed some tunes</label>
 	  <durationDays>0.6</durationDays>
 	  <stackLimit>1</stackLimit>
 	  <thoughtClass>Thought_Memory</thoughtClass>
 	  <stages>
 		<li>
-		  <label>pleased</label>
-		  <description>Enjoyed listening to a good album.</description>
+		  <label>Listened to some music</label>
+		  <description>Took a break and listened to an album that just felt right. The rhythm, the sound - all good vibes.</description>
 		  <baseMoodEffect>4</baseMoodEffect>
 		</li>
 	  </stages>
@@ -17,14 +17,14 @@
 
 	<ThoughtDef>
 	  <defName>RR_ListenedToAlbum_Thrilled</defName>
-	  <label>thrilled by music</label>
+	  <label>blown away by an album</label>
 	  <durationDays>0.8</durationDays>
 	  <stackLimit>1</stackLimit>
 	  <thoughtClass>Thought_Memory</thoughtClass>
 	  <stages>
 		<li>
-		  <label>thrilled</label>
-		  <description>An outstanding album lifted my spirits.</description>
+		  <label>Listened to incredible music</label>
+		  <description>That album was incredible. Every track hit hard - still humming it hours later.</description>
 		  <baseMoodEffect>7</baseMoodEffect>
 		</li>
 	  </stages>
@@ -32,14 +32,14 @@
 
 	<ThoughtDef>
 	  <defName>RR_ListenedToAlbum_Disliked</defName>
-	  <label>didn't like the album</label>
+	  <label>didn’t enjoy the album</label>
 	  <durationDays>0.4</durationDays>
 	  <stackLimit>1</stackLimit>
 	  <thoughtClass>Thought_Memory</thoughtClass>
 	  <stages>
 		<li>
-		  <label>annoyed</label>
-		  <description>That album really wasn’t my taste.</description>
+		  <label>Listened to crappy music</label>
+		  <description>That album wasn’t for me. Too loud, too weird, or maybe I just wasn’t in the mood for it.</description>
 		  <baseMoodEffect>-3</baseMoodEffect>
 		</li>
 	  </stages>

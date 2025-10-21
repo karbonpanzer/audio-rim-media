@@ -2,15 +2,23 @@
 <Defs>
 
   <!-- Keep defName for compatibility but present as Recording across UI -->
-  <WorkTypeDef>
-    <defName>VBE_Writing</defName>
-    <label>recording</label>
-    <gerundLabel>recording</gerundLabel>
+    <WorkTypeDef>
+    <defName>RR_Recording</defName>
+    <labelShort>record</labelShort>
     <pawnLabel>recorder</pawnLabel>
-    <description>Handles recording albums at the console and duplication tasks.</description>
-    <workGiversByPriority>
-      <li>VBE_DoBillsWrite</li>
-    </workGiversByPriority>
+    <gerundLabel>recording</gerundLabel>
+    <description>Creating music at the recording console.</description>
+    <verb>Recording at</verb>
+    <naturalPriority>350</naturalPriority>
+    <disabledForSlaves>false</disabledForSlaves>
+    <relevantSkills>
+      <li>Artistic</li>
+    </relevantSkills>
+    <workTags>
+      <li>Artistic</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
   </WorkTypeDef>
 
 </Defs>

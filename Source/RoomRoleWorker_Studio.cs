@@ -13,7 +13,7 @@ namespace VanillaMusicExpanded
             foreach (var c in room.ContainedAndAdjacentThings)
             {
                 if (c?.def == null) continue;
-                if (c.def.defName == "VBE_WritersTable") score += 25f;
+                if (c.def.defName == "VME_RecordingConsole") score += 25f;
                 if (c.def.defName == "VME_AlbumRack") score += 10f;
             }
             score += room.GetStat(RoomStatDefOf.Impressiveness) * 0.25f;

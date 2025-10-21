@@ -7,7 +7,7 @@ namespace VanillaMusicExpanded
     public static class VME_DefOf
     {
         public static JobDef VME_ListenAlbum;
-        public static JoyKindDef VBE_Reading; // kept for compatibility in XML for now
+        public static JoyKindDef RR_Listening; // kept for compatibility in XML for now
         public static SoundDef RR_Album_StartListening;
         public static SoundDef RR_Album_StopListening;
 

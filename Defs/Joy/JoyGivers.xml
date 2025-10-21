@@ -2,14 +2,14 @@
 <Defs>
 
   <JoyGiverDef>
-    <defName>VME_ListenAlbum_Giver</defName>
+    <defName>RR_ListenAlbum_Giver</defName>
     <label>listen to album</label>
     <giverClass>VanillaMusicExpanded.JoyGiver_ListenAlbum</giverClass>
     <baseChance>1</baseChance>
     <jobDef>VME_ListenAlbum</jobDef>
-    <joyKind>VBE_Reading</joyKind>
+    <joyKind>RR_Listening</joyKind>
     <requiredCapacities>
-      <li>Sight</li>
+      <li>Hearing</li>
     </requiredCapacities>
   </JoyGiverDef>
 
