@@ -1,13 +1,13 @@
 using Verse;
 using RimWorld;
 
-namespace VanillaMusicExpanded
+namespace RimRadio
 {
     [DefOf]
-    public static class VME_DefOf
+    public static class RR_DefOf
     {
-        public static JobDef VME_ListenAlbum;
-        public static JoyKindDef RR_Listening; // kept for compatibility in XML for now
+        public static JobDef RR_ListenAlbum;
+        public static JoyKindDef RR_Listening; 
         public static SoundDef RR_Album_StartListening;
         public static SoundDef RR_Album_StopListening;
 
@@ -15,9 +15,9 @@ namespace VanillaMusicExpanded
         public static ThoughtDef RR_ListenedToAlbum_Thrilled;
         public static ThoughtDef RR_ListenedToAlbum_Disliked;
 
-        static VME_DefOf()
+        static RR_DefOf()
         {
-            DefOfHelper.EnsureInitializedInCtor(typeof(VME_DefOf));
+            DefOfHelper.EnsureInitializedInCtor(typeof(RR_DefOf));
         }
     }
 }

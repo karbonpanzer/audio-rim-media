@@ -1,17 +1,17 @@
-// Source/AlbumDescriptionByQuality.cs  (genre include + generic fallback)
+
 using HarmonyLib;
 using RimWorld;
 using Verse;
 using Verse.Grammar;
 
-namespace VanillaMusicExpanded
+namespace RimRadio
 {
 	[StaticConstructorOnStartup]
 	public static class AlbumDescriptionByQuality_Boot
 	{
 		static AlbumDescriptionByQuality_Boot()
 		{
-			new Harmony("VME.AlbumDescriptionByQuality").PatchAll();
+			new Harmony("RR.AlbumDescriptionByQuality").PatchAll();
 		}
 	}
 
@@ -61,12 +61,12 @@ namespace VanillaMusicExpanded
 
 		public static string GenrePack(Thing t)
 		{
-			// Derive from defName: RR_Album_{GenreKey}
+			
 			string def = t?.def?.defName;
 			if (string.IsNullOrEmpty(def) || !def.StartsWith("RR_Album_"))
 				return "RR_AlbumGenre_Generic";
 
-			string key = def.Substring("RR_Album_".Length); // e.g. "Rock", "HipHop"
+			string key = def.Substring("RR_Album_".Length); 
 			if (string.IsNullOrEmpty(key))
 				return "RR_AlbumGenre_Generic";
 
@@ -74,7 +74,7 @@ namespace VanillaMusicExpanded
 		}
 	}
 
-	// Intercept description generation for albums, route to tier + quality + genre packs.
+	
 	[HarmonyPatch(typeof(CompArt), nameof(CompArt.GetDescriptionPart))]
 	public static class Patch_CompArt_GetDescriptionPart_Albums_ByQuality
 	{
@@ -82,7 +82,7 @@ namespace VanillaMusicExpanded
 		{
 			var thing = __instance?.parent;
 			if (thing == null || !RRAlbumDescUtil.IsAlbum(thing))
-				return true; // not an album → vanilla
+				return true; 
 
 			var tierPackName = RRAlbumDescUtil.PackForQuality(thing);
 			var qualPackName = RRAlbumDescUtil.QualityFlavorPack(thing);
@@ -91,12 +91,12 @@ namespace VanillaMusicExpanded
 			var tierPack = DefDatabase<RulePackDef>.GetNamedSilentFail(tierPackName);
 			var qualPack = DefDatabase<RulePackDef>.GetNamedSilentFail(qualPackName);
 			var genrePack = DefDatabase<RulePackDef>.GetNamedSilentFail(genrePackName);
-			// Fallback to generic genre pack if the specific one doesn't exist
+			
 			if (genrePack == null)
 				genrePack = DefDatabase<RulePackDef>.GetNamedSilentFail("RR_AlbumGenre_Generic");
 
 			if (tierPack == null || qualPack == null || genrePack == null)
-				return true; // missing pack(s): fall back to vanilla
+				return true; 
 
 			GrammarRequest req = default;
 			req.Includes.Add(tierPack);
@@ -104,7 +104,7 @@ namespace VanillaMusicExpanded
 			req.Includes.Add(genrePack);
 
 			__result = GrammarResolver.Resolve("r_art_description", req, forceLog: false);
-			return false; // handled
+			return false; 
 		}
 	}
 }

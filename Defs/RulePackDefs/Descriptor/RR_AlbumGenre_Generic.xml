@@ -4,11 +4,11 @@
     <defName>RR_AlbumGenre_Generic</defName>
     <rulePack>
       <rulesStrings>
-        <!-- Provide the tokens used by the base formats -->
+        
         <li>genre_intro->A collection of pieces shaped by the colony's long days and longer nights.</li>
         <li>space_metaphor->like a beacon weaving through the dark between outposts</li>
 
-        <!-- Optional light flavor so generic still sounds musical -->
+        
         <li>instrument_focus->interlocking parts that leave space for silence</li>
         <li>listener_effect->draws the listener in and won’t let go</li>
       </rulesStrings>

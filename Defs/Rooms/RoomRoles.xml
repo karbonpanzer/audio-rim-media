@@ -2,9 +2,9 @@
 <Defs>
 
   <RoomRoleDef>
-    <defName>VME_Studio</defName>
+    <defName>RR_Studio</defName>
     <label>studio room</label>
-    <workerClass>VanillaMusicExpanded.RoomRoleWorker_Studio</workerClass>
+    <workerClass>RimRadio.RoomRoleWorker_Studio</workerClass>
     <relatedStats>
       <li>Beauty</li>
       <li>Cleanliness</li>

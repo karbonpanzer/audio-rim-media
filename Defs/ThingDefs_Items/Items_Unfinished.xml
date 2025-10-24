@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Unfinished album while it's being recorded -->
+  
   <ThingDef ParentName="UnfinishedBase">
-    <defName>VME_UnfinishedAlbum</defName>
+    <defName>RR_UnfinishedAlbum</defName>
     <label>unfinished album</label>
     <description>An unfinished album.</description>
     <statBases>

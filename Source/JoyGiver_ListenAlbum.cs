@@ -2,11 +2,11 @@ using Verse;
 using RimWorld;
 using Verse.AI;
 
-namespace VanillaMusicExpanded
+namespace RimRadio
 {
     public class JoyGiver_ListenAlbum : JoyGiver
     {
-        // JoyGiver_ListenAlbum.cs  (replace TryGiveJob)
+        
         public override Job TryGiveJob(Pawn pawn)
         {
             if (pawn.Map == null) return null;
@@ -16,7 +16,7 @@ namespace VanillaMusicExpanded
                 ThingRequest.ForGroup(ThingRequestGroup.HaulableEver),
                 PathEndMode.Touch,
                 TraverseParms.For(pawn),
-                50f, // give it a bit more range
+                50f, 
                 t =>
                     t.TryGetComp<CompAlbum>() != null
                     && !t.IsForbidden(pawn)
@@ -25,8 +25,8 @@ namespace VanillaMusicExpanded
 
             if (album == null) return null;
 
-            // Prefer DefOf over string lookup
-            var job = JobMaker.MakeJob(VME_DefOf.VME_ListenAlbum, album);
+            
+            var job = JobMaker.MakeJob(RR_DefOf.RR_ListenAlbum, album);
             return job;
         }
 

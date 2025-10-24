@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\VanillaMusicExpanded.csproj",
-      "projectName": "VanillaMusicExpanded",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\VanillaMusicExpanded.csproj",
+      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\RimRadio.csproj",
+      "projectName": "RimRadio",
+      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\RimRadio.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
       "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rim-Radio (Rebuild)\\Source\\obj\\",
       "projectStyle": "PackageReference",

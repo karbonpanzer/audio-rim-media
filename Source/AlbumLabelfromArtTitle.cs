@@ -2,14 +2,14 @@
 using RimWorld;
 using Verse;
 
-namespace VanillaMusicExpanded
+namespace RimRadio
 {
     [StaticConstructorOnStartup]
     public static class AlbumLabelFromArtTitle_Boot
     {
         static AlbumLabelFromArtTitle_Boot()
         {
-            new Harmony("VME.AlbumLabelFromArtTitle").PatchAll();
+            new Harmony("RR.AlbumLabelFromArtTitle").PatchAll();
         }
     }
 
@@ -19,7 +19,7 @@ namespace VanillaMusicExpanded
             => thing?.def?.defName != null && thing.def.defName.StartsWith("RR_Album");
     }
 
-    // Title overwrites label (no count), include Quality in parentheses like books
+    
     [HarmonyPatch(typeof(Thing), nameof(Thing.LabelNoCount), MethodType.Getter)]
     public static class Patch_LabelNoCount
     {
@@ -33,7 +33,7 @@ namespace VanillaMusicExpanded
             var title = compArt.Title;
             if (string.IsNullOrEmpty(title)) return;
 
-            // Append quality in parentheses if present
+            
             var compQual = __instance.TryGetComp<CompQuality>();
             if (compQual != null)
             {
@@ -46,7 +46,7 @@ namespace VanillaMusicExpanded
         }
     }
 
-    // Title overwrites label (capitalized), include Quality in parentheses like books
+    
     [HarmonyPatch(typeof(Thing), nameof(Thing.LabelCap), MethodType.Getter)]
     public static class Patch_LabelCap
     {
@@ -72,7 +72,7 @@ namespace VanillaMusicExpanded
         }
     }
 
-    // Inspect: Author on one line, Genre on the next. No title in Inspect.
+    
     [HarmonyPatch(typeof(CompArt), nameof(CompArt.CompInspectStringExtra))]
     public static class Patch_CompArt_Inspect_AuthorThenGenre
     {

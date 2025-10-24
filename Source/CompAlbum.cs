@@ -1,8 +1,8 @@
-// Source/CompAlbum.cs
+
 using Verse;
 using RimWorld;
 
-namespace VanillaMusicExpanded
+namespace RimRadio
 {
 	public class CompProperties_Album : CompProperties
 	{
@@ -23,7 +23,7 @@ namespace VanillaMusicExpanded
 
 		public override string CompInspectStringExtra()
 		{
-			// Genre now shown via CompArt patch together with Author and Quality
+			
 			return null;
 		}
 	}

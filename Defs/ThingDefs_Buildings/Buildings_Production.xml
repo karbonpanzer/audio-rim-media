@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Recording Console (keeps original defName so existing WorkGivers keep functioning) -->
+  
   <ThingDef ParentName="BenchBase">
-    <defName>VME_RecordingConsole</defName>
+    <defName>RR_RecordingConsole</defName>
     <label>recording console</label>
     <description>A workstation for recording music albums. Pawns can produce genre albums here using bills.</description>
     <thingClass>Building_WorkTable</thingClass>
@@ -64,9 +64,9 @@
 	
   </ThingDef>
 
-	<!-- Album Rack (storage for albums only) -->
+	
 	<ThingDef ParentName="ShelfBase">
-	  <defName>VME_AlbumRack</defName>
+	  <defName>RR_AlbumRack</defName>
 	  <label>album rack</label>
 	  <description>A compact rack for storing recorded music albums.</description>
 

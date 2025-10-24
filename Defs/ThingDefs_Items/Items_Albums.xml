@@ -38,7 +38,7 @@
       <texPath>Things/Item/Album/rock</texPath>
     </graphicData>
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Rock</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -68,7 +68,7 @@
       <texPath>Things/Item/Album/hiphop</texPath>
     </graphicData>
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Hip-hop</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -98,7 +98,7 @@
       <texPath>Things/Item/Album/jazz</texPath>
     </graphicData>
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Jazz</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -128,7 +128,7 @@
       <texPath>Things/Item/Album/classical</texPath>
     </graphicData>
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Classical</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -158,7 +158,7 @@
       <texPath>Things/Item/Album/folk</texPath>
     </graphicData>
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Folk</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -189,7 +189,7 @@
     </graphicData>
     <!-- Amber / rose -->
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Soul</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -220,7 +220,7 @@
     </graphicData>
     <!-- Teals / cyans -->
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Electronic</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -250,7 +250,7 @@
       <texPath>Things/Item/Album/pop</texPath>
     </graphicData>
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Pop</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -280,7 +280,7 @@
       <texPath>Things/Item/Album/metal</texPath>
     </graphicData>
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Metal</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>
@@ -310,7 +310,7 @@
       <texPath>Things/Item/Album/country</texPath>
     </graphicData>
     <comps>
-      <li Class="VanillaMusicExpanded.CompProperties_Album">
+      <li Class="RimRadio.CompProperties_Album">
         <genre>Country</genre>
         <listeningTicks>1600</listeningTicks>
         <joyAmountPerTick>0.0001</joyAmountPerTick>

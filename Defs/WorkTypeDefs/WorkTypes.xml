@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Keep defName for compatibility but present as Recording across UI -->
+  
     <WorkTypeDef>
     <defName>RR_Recording</defName>
     <labelShort>record</labelShort>

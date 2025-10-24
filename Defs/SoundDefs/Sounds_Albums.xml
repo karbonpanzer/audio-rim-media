@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Optional stubs; real assets can be mapped later -->
+  
   <SoundDef>
     <defName>RR_Album_StartListening</defName>
     <context>MapOnly</context>

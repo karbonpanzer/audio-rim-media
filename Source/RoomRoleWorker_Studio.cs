@@ -1,7 +1,7 @@
 using Verse;
 using RimWorld;
 
-namespace VanillaMusicExpanded
+namespace RimRadio
 {
     public class RoomRoleWorker_Studio : RoomRoleWorker
     {
@@ -13,8 +13,8 @@ namespace VanillaMusicExpanded
             foreach (var c in room.ContainedAndAdjacentThings)
             {
                 if (c?.def == null) continue;
-                if (c.def.defName == "VME_RecordingConsole") score += 25f;
-                if (c.def.defName == "VME_AlbumRack") score += 10f;
+                if (c.def.defName == "RR_RecordingConsole") score += 25f;
+                if (c.def.defName == "RR_AlbumRack") score += 10f;
             }
             score += room.GetStat(RoomStatDefOf.Impressiveness) * 0.25f;
             return score;
