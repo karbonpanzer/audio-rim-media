@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Quality_Legendary</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>quality_line->It reframes the space around the band.</li>
+        <li>quality_line->Time seems to slow inside the groove.</li>
+        <li>quality_line->Every note lands with intent and grace.</li>
+        <li>quality_line->Air and weight move together as one.</li>
+        <li>quality_line->The room itself feels like an instrument.</li>
+        <li>quality_line->Intensity never costs clarity.</li>
+        <li>quality_line->It carries the hush of a great hall.</li>
+        <li>quality_line->Focus is razor sharp yet never brittle.</li>
+        <li>quality_line->The mix disappears and only the music remains.</li>
+        <li>quality_line->Tiny sounds feel vast, vast sounds feel close.</li>
+        <li>quality_line->It turns momentum into memory.</li>
+        <li>quality_line->You hear decisions, not accidents.</li>
+        <li>quality_line->It feels like a place you could walk into.</li>
+        <li>quality_line->A summation of craft at the highest level.</li>
+        <li>production_quality->Iconic balance that defines a standard.</li>
+        <li>production_quality->Imaging is holographic and immovable.</li>
+        <li>production_quality->Dynamics read like human breath.</li>
+        <li>production_quality->Color and contrast are perfectly judged.</li>
+        <li>production_quality->Silence is used as a musical element.</li>
+        <li>production_quality->Impact arrives with zero smear.</li>
+        <li>production_quality->Depth extends well beyond the speakers.</li>
+        <li>production_quality->The result is archival and timeless.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

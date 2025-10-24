@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Name_Classical</defName>
+    <label>Album titles - Classical</label>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name->[AlbumFormats]</li>
+        <li>AlbumFormats->[AlbumFormatsA]</li>
+        <li>AlbumFormatsA->[ClassForm] in [ClassKey]</li>
+        <li>AlbumFormatsA->[ClassForm] No. [ClassNumber]</li>
+        <li>AlbumFormatsA->The [ClassAdj] [ClassNoun]</li>
+        <li>AlbumFormatsA->[ClassNoun] of [ClassPlace]</li>
+        <li>AlbumFormatsA->[ClassPerson]'s [ClassForm]</li>
+        <li>ClassForm->Symphony</li>
+        <li>ClassForm->Concerto</li>
+        <li>ClassForm->Suite</li>
+        <li>ClassForm->Nocturne</li>
+        <li>ClassForm->Canon</li>
+        <li>ClassForm->Overture</li>
+        <li>ClassForm->Prelude</li>
+        <li>ClassForm->Variations</li>
+        <li>ClassKey->C Minor</li>
+        <li>ClassKey->A Minor</li>
+        <li>ClassKey->D Major</li>
+        <li>ClassKey->G Minor</li>
+        <li>ClassKey->E Flat</li>
+        <li>ClassKey->B Minor</li>
+        <li>ClassNumber->1</li>
+        <li>ClassNumber->2</li>
+        <li>ClassNumber->3</li>
+        <li>ClassNumber->4</li>
+        <li>ClassNumber->5</li>
+        <li>ClassNumber->6</li>
+        <li>ClassNumber->7</li>
+        <li>ClassNumber->8</li>
+        <li>ClassNumber->9</li>
+        <li>ClassNumber->10</li>
+        <li>ClassAdj->Silent</li>
+        <li>ClassAdj->Gilded</li>
+        <li>ClassAdj->Unbroken</li>
+        <li>ClassAdj->Starlit</li>
+        <li>ClassAdj->Rusted</li>
+        <li>ClassAdj->Horizon</li>
+        <li>ClassNoun->Arc</li>
+        <li>ClassNoun->Pilgrimage</li>
+        <li>ClassNoun->Harbor</li>
+        <li>ClassNoun->Constellation</li>
+        <li>ClassNoun->Horizon</li>
+        <li>ClassNoun->Chorale</li>
+        <li>ClassPlace->Alexandria</li>
+        <li>ClassPlace->Thule</li>
+        <li>ClassPlace->Blackstone</li>
+        <li>ClassPlace->Dock Nine</li>
+        <li>ClassPlace->the Outer March</li>
+        <li>ClassPerson->Laertes</li>
+        <li>ClassPerson->Makedonn</li>
+        <li>ClassPerson->Thassara</li>
+        <li>ClassPerson->Lykios</li>
+        <li>ClassPerson->The Archivist</li>
+      </rulesStrings>
+    </rulePack>
+    <include>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+  </RulePackDef>
+</Defs>

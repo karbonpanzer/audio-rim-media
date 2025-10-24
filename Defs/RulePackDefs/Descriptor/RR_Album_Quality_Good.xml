@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Quality_Good</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>quality_line->It invites repeat listens with steady charm.</li>
+        <li>quality_line->Balances feel sure-footed and clear.</li>
+        <li>quality_line->Timbres are warm and believable.</li>
+        <li>quality_line->Solid work that rewards attention.</li>
+        <li>quality_line->Parts interlock with quiet confidence.</li>
+        <li>quality_line->Punch and poise arrive together.</li>
+        <li>quality_line->Air sits naturally around the instruments.</li>
+        <li>quality_line->It translates well on any setup.</li>
+        <li>quality_line->Grooves feel centered and assured.</li>
+        <li>quality_line->Clarity arrives without glare.</li>
+        <li>quality_line->It supports the songs rather than showing off.</li>
+        <li>quality_line->Clean work that lets performances shine.</li>
+        <li>quality_line->Musical choices land with purpose.</li>
+        <li>quality_line->Assured and unpretentious.</li>
+        <li>production_quality->Thoughtful balance with restrained polish.</li>
+        <li>production_quality->Transient control keeps edges tidy.</li>
+        <li>production_quality->EQ carves space without thinning.</li>
+        <li>production_quality->Stereo depth places parts with intent.</li>
+        <li>production_quality->Subtle ambience builds a sense of room.</li>
+        <li>production_quality->Low noise and stable dynamics.</li>
+        <li>production_quality->Automation nudges focus at the right moments.</li>
+        <li>production_quality->Headroom preserved for impact.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

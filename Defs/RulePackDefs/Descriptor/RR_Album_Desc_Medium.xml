@@ -8,8 +8,11 @@
     </include>
     <rulePack>
       <rulesStrings>
+        <li>r_art_description->[format_core] [emotional_center]</li>
+        <li>r_art_description->[format_core] [instrument_focus] [listener_effect] [closing_mood]</li>
+        <li>r_art_description->[format_core] [emotional_center] [production_quality]</li>
+        <li>r_art_description->[format_core] [instrument_focus] [listener_effect] [quality_line]</li>
         <li>r_art_description->[format_core] [emotional_center] [production_quality] [quality_line]</li>
-        <li>r_art_description->[format_core] [instrument_focus] [listener_effect] [closing_mood] [quality_line]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

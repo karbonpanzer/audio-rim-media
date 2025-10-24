@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Quality_Masterwork</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>quality_line->It presents a clear image that feels lifelike.</li>
+        <li>quality_line->Every part has space and purpose.</li>
+        <li>quality_line->Tiny inflections read as musical statements.</li>
+        <li>quality_line->Momentum builds with effortless control.</li>
+        <li>quality_line->Tone and timing meet in a sweet spot.</li>
+        <li>quality_line->You notice craft only after the song ends.</li>
+        <li>quality_line->Energy rises and settles in perfect arcs.</li>
+        <li>quality_line->The soundstage snaps into focus.</li>
+        <li>quality_line->Quiet passages carry electricity.</li>
+        <li>quality_line->Power arrives with zero strain.</li>
+        <li>quality_line->It feels inevitable once it starts.</li>
+        <li>quality_line->Complexity reads as simple and right.</li>
+        <li>quality_line->A masterclass in restraint and emphasis.</li>
+        <li>quality_line->A reference point for how this should sound.</li>
+        <li>production_quality->Reference-grade imaging with deep front to back depth.</li>
+        <li>production_quality->Microdynamics render phrasing vividly.</li>
+        <li>production_quality->EQ and saturation balance color with clarity.</li>
+        <li>production_quality->Dynamics breathe without calling attention to themselves.</li>
+        <li>production_quality->Spatial cues lock into a believable stage.</li>
+        <li>production_quality->Noise vanishes below the musical floor.</li>
+        <li>production_quality->Automation shapes narrative arcs, not just levels.</li>
+        <li>production_quality->Translation is rock solid across systems.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

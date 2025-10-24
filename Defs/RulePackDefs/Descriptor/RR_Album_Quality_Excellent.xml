@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Quality_Excellent</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>quality_line->It feels intimate, like you are in the room with the players.</li>
+        <li>quality_line->Transients snap and tones bloom with ease.</li>
+        <li>quality_line->Silence between notes carries weight.</li>
+        <li>quality_line->Textures layer cleanly without crowding.</li>
+        <li>quality_line->Movement through the stereo field feels intentional.</li>
+        <li>quality_line->Low end is tight and musical.</li>
+        <li>quality_line->Vocals sit forward without harshness.</li>
+        <li>quality_line->Details appear the closer you listen.</li>
+        <li>quality_line->Complex parts remain effortless to follow.</li>
+        <li>quality_line->Punch arrives then gets out of the way.</li>
+        <li>quality_line->Ambience frames the performance rather than hiding it.</li>
+        <li>quality_line->It stays compelling at any volume.</li>
+        <li>quality_line->Nothing is wasted, everything serves the song.</li>
+        <li>quality_line->Precision that never feels clinical.</li>
+        <li>production_quality->Expert balance that rewards close listening.</li>
+        <li>production_quality->Transient handling preserves impact and tone.</li>
+        <li>production_quality->EQ sculpting reveals depth without glare.</li>
+        <li>production_quality->Stereo imaging is stable and dimensional.</li>
+        <li>production_quality->Dynamics expand naturally with the performance.</li>
+        <li>production_quality->Room cues create a convincing stage.</li>
+        <li>production_quality->Harmonics are rich without haze.</li>
+        <li>production_quality->Headroom is abundant and well used.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

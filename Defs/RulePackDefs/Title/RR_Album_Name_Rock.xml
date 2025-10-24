@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Name_Rock</defName>
+    <label>Album titles - Rock</label>
+    <rulePack>
+      <rulesStrings>
+        <li>r_art_name->[AlbumFormats]</li>
+        <li>AlbumFormats->[AlbumFormatsA]</li>
+        <li>AlbumFormatsA->[RockAdj] [RockNoun]</li>
+        <li>AlbumFormatsA->The [RockAdj] [RockNoun]</li>
+        <li>AlbumFormatsA->[RockNoun] of [RockPlace]</li>
+        <li>AlbumFormatsA->[RockPerson]'s [RockNoun]</li>
+        <li>AlbumFormatsA->[RockVerbGerund] [RockPlace]</li>
+        <li>AlbumFormatsA->[RockNumber] Nights in [RockPlace]</li>
+        <li>RockAdj->Electric</li>
+        <li>RockAdj->Rust-bitten</li>
+        <li>RockAdj->Midnight</li>
+        <li>RockAdj->Gritty</li>
+        <li>RockAdj->Radio</li>
+        <li>RockAdj->Road-bound</li>
+        <li>RockAdj->Neon</li>
+        <li>RockAdj->Stonecold</li>
+        <li>RockAdj->Thunderhead</li>
+        <li>RockAdj->Sleepless</li>
+        <li>RockNoun->Highways</li>
+        <li>RockNoun->Matches</li>
+        <li>RockNoun->Sirens</li>
+        <li>RockNoun->Anthems</li>
+        <li>RockNoun->Switchblades</li>
+        <li>RockNoun->Gaslights</li>
+        <li>RockNoun->Backbeats</li>
+        <li>RockNoun->Gravel</li>
+        <li>RockNoun->Deadlines</li>
+        <li>RockNoun->Fireworks</li>
+        <li>RockNoun->Detours</li>
+        <li>RockNoun->Shakedowns</li>
+        <li>RockPlace->Blackstone</li>
+        <li>RockPlace->Dock Nine</li>
+        <li>RockPlace->the Rim</li>
+        <li>RockPlace->the Drylands</li>
+        <li>RockPlace->Gravel Row</li>
+        <li>RockPlace->Checkpoint City</li>
+        <li>RockPlace->Rust Harbor</li>
+        <li>RockPlace->Switchyard</li>
+        <li>RockPerson->The Drifter</li>
+        <li>RockPerson->The Mechanic</li>
+        <li>RockPerson->The Night Foreman</li>
+        <li>RockPerson->The Runaway</li>
+        <li>RockPerson->The Dispatcher</li>
+        <li>RockVerbGerund->Chasing</li>
+        <li>RockVerbGerund->Breaking</li>
+        <li>RockVerbGerund->Lighting</li>
+        <li>RockVerbGerund->Crossing</li>
+        <li>RockVerbGerund->Outrunning</li>
+        <li>RockVerbGerund->Kicking Up</li>
+        <li>RockVerbGerund->Borrowing Tomorrow</li>
+        <li>RockNumber->Two</li>
+        <li>RockNumber->Three</li>
+        <li>RockNumber->Five</li>
+        <li>RockNumber->Seven</li>
+        <li>RockNumber->Nine</li>
+      </rulesStrings>
+    </rulePack>
+    <include>
+      <li>RR_GlobalAlbumHelpers</li>
+    </include>
+  </RulePackDef>
+</Defs>

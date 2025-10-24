@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RR_Album_Quality_Poor</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>quality_line->It is fine.</li>
+        <li>quality_line->It works as expected.</li>
+        <li>production_quality->Production is fine.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

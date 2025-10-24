@@ -8,9 +8,13 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>r_art_description->[reflective_format] [instrument_focus] [emotional_center] [production_quality] [listener_effect] [quality_line] [fadeout]</li>
+        <li>r_art_description->[reflective_format] [instrument_focus] [production_quality] [listener_effect] [quality_line] [fadeout]</li>
         <li>r_art_description->[kinetic_format] [sound_source] [abstract_tone] [production_quality] [quality_line] [closing_mood]</li>
-        <li>r_art_description->[reflective_format] [instrument_focus] [emotional_center] [quality_line]&#10;&#10;[atmospheric_format] [space_metaphor] [production_quality] [fadeout]</li>
+        <li>r_art_description->[reflective_format] [instrument_focus] [atmospheric_format] [space_metaphor] [production_quality] [fadeout]</li>
+        <li>r_art_description->[reflective_format] [instrument_focus] [listener_effect] [fadeout]</li>
+        <li>r_art_description->[kinetic_format] [sound_source] [abstract_tone] [closing_mood]</li>
+        <li>r_art_description->[atmospheric_format] [sound_source] [abstract_tone] [space_metaphor] [closing_mood]</li>
+        <li>r_art_description->[reflective_format] [instrument_focus] [production_quality] [closing_mood]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

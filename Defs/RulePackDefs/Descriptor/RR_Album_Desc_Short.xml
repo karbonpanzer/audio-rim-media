@@ -8,6 +8,8 @@
     </include>
     <rulePack>
       <rulesStrings>
+        <li>r_art_description->[format_core]</li>
+        <li>r_art_description->[format_core] [closing_mood]</li>
         <li>r_art_description->[format_core] [quality_line]</li>
         <li>r_art_description->[format_core] [closing_mood] [quality_line]</li>
       </rulesStrings>
