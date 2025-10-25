@@ -4,9 +4,17 @@
     <defName>RR_Album_Quality_Poor</defName>
     <rulePack>
       <rulesStrings>
-        <li>quality_line->It is fine.</li>
-        <li>quality_line->It works as expected.</li>
-        <li>production_quality->Production is fine.</li>
+        <li>quality_line->Some high tones sound a bit scratchy.</li>
+        <li>quality_line->High vocal tones came out falsetto.</li>
+        <li>quality_line->Questionable choice of instruments for this particular genre.</li>
+        <li>quality_line->It's subtle, but you can hear someone starting a motor vehicle in the background.</li>
+        <li>quality_line->The recording unknowingly picked up a faint radio station.</li>
+        <li>production_quality->Minor sound glitches make themselves known every so often, a sign of faulty recording.</li>
+        <li>production_quality->The sound skips every so often.</li>
+        <li>production_quality->Whoever balanced the bass made it too deep.</li>
+        <li>production_quality->A poor-quality mic unintentionally made everything sound like it was recorded in a tin can.</li>
+        <li>production_quality->The volume suddenly rose during a segment.</li>
+        <li>production_quality->The song gets truncated suddenly near the end.</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
