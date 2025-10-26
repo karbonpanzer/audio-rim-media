@@ -4,9 +4,27 @@
     <defName>RR_Album_Quality_Awful</defName>
     <rulePack>
       <rulesStrings>
-        <li>quality_line->It is fine.</li>
-        <li>quality_line->It works as expected.</li>
-        <li>production_quality->Production is fine.</li>
+        <li>quality_line->All the instruments are off-key in an unintended and torturous way.</li>
+        <li>quality_line->Vocal pieces sound very distorted and off.</li>
+        <li>quality_line->Some unknown combination of tones in the songs make the listener feel very nauseous.</li>
+        <li>quality_line->Apparently someone thought throwing pots and pans down a stairwell counts as music - they are very, very wrong.</li>
+        <li>quality_line->Hopefully they fired whoever decided that the album must be recorded in the middle of a busy starport.</li>
+        <li>quality_line->The melodies are somehow cliche, trite, banal, and annoying at the same time.</li>
+        <li>production_quality->Audio glitches plague the entire length of the album, making listening to it unbearable.</li>
+        <li>production_quality->Almost all the songs have segments skipped haphazardly, suggesting data corruption.</li>
+        <li>production_quality->Volume often dips and rises suddenly in a way that hurts the eardrums.</li>
+        <li>production_quality->Songs inexplicably start from the middle or muted halfway through.</li>
+        <li>production_quality->An instrument's track is clearly missing in an obvious way.</li>
+        <li>production_quality->Whether intentionally or through accident, the entire album sounds like [musicmetaphor_awful].</li>
+        <li>musicmetaphor_awful->it's recorded in a sunken, flooded submarine</li>
+        <li>musicmetaphor_awful->someone stuffed a sock in all the instruments</li>
+        <li>musicmetaphor_awful->tiny hamsters with tiny instruments performed it</li>
+        <li>musicmetaphor_awful->someone threw a brick into a washing machine and called it music</li>
+        <li>musicmetaphor_awful->if you could turn mediocre clip art into audio</li>
+        <li>musicmetaphor_awful->thirty ancient modems connecting at once</li>
+        <li>musicmetaphor_awful->everybody involved in the production of this album was under the influence of mind-altering substances</li>
+        <li>musicmetaphor_awful->what it feels to wait in line to the bathroom</li>
+        <li>musicmetaphor_awful->the devil himself concocted a new form of torture for the ears</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
