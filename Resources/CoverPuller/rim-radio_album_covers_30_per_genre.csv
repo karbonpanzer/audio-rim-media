@@ -1,0 +1,331 @@
+Genre,Artist,Album,Year,Why it scales
+Rock,Pink Floyd,The Dark Side of the Moon,1973,Prism triangle on black
+Rock,Franz Ferdinand,Franz Ferdinand,2004,Bold orange-black geometry
+Rock,Led Zeppelin,IV,1971,Framed rustic painting on wall
+Rock,Queens of the Stone Age,Songs for the Deaf,2002,Red field with tuning fork icon
+Rock,The White Stripes,Elephant,2003,Limited red-white-black palette
+Rock,Nirvana,Nevermind,1991,Blue pool with central figure silhouette
+Rock,Arctic Monkeys,AM,2013,White waveform on black
+Rock,Muse,Absolution,2003,Shadow figures on concrete
+Rock,Radiohead,OK Computer,1997,Pale cyan abstract blocks
+Rock,The Strokes,Is This It,2001,Minimal white space composition
+Rock,The Killers,Hot Fuss,2004,Neon city blocks
+Rock,The Clash,London Calling,1979,High-contrast pose and type
+Rock,Foo Fighters,Wasting Light,2011,Multi-color faces on black
+Rock,Bilmuri,Goblin Hours,2022,Flat graphic humor
+Rock,The Smashing Pumpkins,Siamese Dream,1993,"Bright portrait, simple framing"
+Rock,The Black Keys,El Camino,2011,"Van silhouette, empty lot"
+Rock,Weezer,Weezer (Blue Album),1994,"Flat cyan backdrop, four figures"
+Rock,King Crimson,In the Court of the Crimson King,1969,Large red face
+Rock,Gorillaz,Demon Days,2005,Four-panel character grid
+Rock,The Rolling Stones,Sticky Fingers,1971,Centered zipper photo
+Rock,Paramore,After Laughter,2017,Pastel geometric blocks
+Rock,The Doors,The Doors,1967,Yellow title with close portrait
+Rock,Tame Impala,Currents,2015,Purple metallic wave
+Rock,Bilmuri,American Motorsports,2024,Vivid centered graphic
+Rock,The Who,Who’s Next,1971,Monolith shape against sky
+Rock,The Beatles,Abbey Road,1969,Crosswalk silhouettes
+Rock,Bloc Party,Silent Alarm,2005,White landscape minimalism
+Rock,Red Hot Chili Peppers,Californication,1999,Orange-blue pool contrast
+Rock,Cage the Elephant,Melophobia,2013,Striped surreal face
+Rock,Smashing Satellites,A-Side,2014,Glowing object on dark
+Metal,Metallica,Master of Puppets,1986,Crosses in orange sky
+Metal,Iron Maiden,Powerslave,1984,Pyramid temple centerpiece
+Metal,Black Sabbath,Paranoid,1970,Motion-blur figure on black
+Metal,Judas Priest,Screaming for Vengeance,1982,Stylized eagle on yellow/red
+Metal,Rammstein,Sehnsucht,1997,Metallic faces on black
+Metal,Slipknot,Iowa,2001,Goat skull silhouette
+Metal,Megadeth,Rust in Peace,1990,Glowing figure at table
+Metal,System of a Down,Toxicity,2001,Clean logo over hillside
+Metal,Tool,Ænima,1996,Abstract eye pattern
+Metal,Mastodon,Leviathan,2004,Great wave painting
+Metal,Ghost,Prequelle,2018,Gothic cathedral graphic
+Metal,Gojira,Magma,2016,Volcanic orange-black
+Metal,Opeth,Ghost Reveries,2005,Candlelit center
+Metal,Behemoth,The Satanist,2014,Gold on black minimal
+Metal,Korn,Issues,1999,Stitched doll icon
+Metal,Pantera,Vulgar Display of Power,1992,Fist impact close-up
+Metal,Trivium,Shogun,2008,Dragon illustration
+Metal,Lamb of God,Ashes of the Wake,2004,Green spiral motif
+Metal,Children of Bodom,Follow the Reaper,2000,Reaper figure blue tone
+Metal,Sepultura,Roots,1996,Red tribal mask
+Metal,Power Trip,Nightmare Logic,2017,Lightning over ruins
+Metal,Sabaton,The Great War,2019,Centered soldier group
+Metal,Rammstein,Zeit,2022,Minimal clock texture
+Metal,Electric Wizard,Dopethrone,2000,Monochrome occult graphic
+Metal,Mercyful Fate,Don’t Break the Oath,1984,Fire goat emblem
+Metal,Cradle of Filth,Midian,2000,Blue gothic face
+Metal,Sleep,Dopesmoker,2003,Desert caravan silhouettes
+Metal,Alcest,Écailles de Lune,2010,Oceanic blue figure
+Metal,Baroness,Purple,2015,Bright art nouveau
+Metal,King Gizzard & the Lizard Wizard,Infest the Rats’ Nest,2019,Infernal clean geometry
+Hip-Hop,Kanye West,Graduation,2007,Bright cartoon bear silhouette
+Hip-Hop,MF DOOM,Mm.. Food,2004,Comic table scene
+Hip-Hop,Dr. Dre,2001,1999,Black background with green leaf
+Hip-Hop,OutKast,Stankonia,2000,Black-and-white flag motif
+Hip-Hop,A Tribe Called Quest,The Low End Theory,1991,Neon red/green figure outline
+Hip-Hop,Kendrick Lamar,To Pimp a Butterfly,2015,Central group composition
+Hip-Hop,"Tyler, The Creator",IGOR,2019,Flat pink background and face
+Hip-Hop,Jay-Z,The Blueprint,2001,Blue monochrome minimal
+Hip-Hop,Run the Jewels,Run the Jewels 2,2014,Gold hands on black
+Hip-Hop,Death Grips,Exmilitary,2011,Cropped portrait high contrast
+Hip-Hop,Kid Cudi,Man on the Moon: The End of Day,2009,Half face with cosmic sphere
+Hip-Hop,Nas,Illmatic,1994,Child portrait and city overlay
+Hip-Hop,Travis Scott,Astroworld,2018,Giant golden head gateway
+Hip-Hop,The Notorious B.I.G.,Ready to Die,1994,Baby silhouette on white
+Hip-Hop,Wu-Tang Clan,Enter the Wu-Tang (36 Chambers),1993,Masked group on black
+Hip-Hop,Logic,Under Pressure,2014,Crew portrait framing
+Hip-Hop,Earl Sweatshirt,Some Rap Songs,2018,Blurry orange portrait still readable
+Hip-Hop,Denzel Curry,TA13OO,2018,Black-white stark contrast
+Hip-Hop,Vince Staples,Big Fish Theory,2017,Orange field with fish
+Hip-Hop,JPEGMAFIA,LP!,2019,Minimal grayscale square
+Hip-Hop,BROCKHAMPTON,Saturation II,2017,Blue-painted face
+Hip-Hop,clipping.,There Existed an Addiction to Blood,2019,Deep red field
+Hip-Hop,Noname,Room 25,2018,Simple interior shapes
+Hip-Hop,Pusha T,Daytona,2018,White space with sharp objects
+Hip-Hop,Freddie Gibbs & Madlib,Bandana,2019,Repeating bandana pattern
+Hip-Hop,Isaiah Rashad,The Sun’s Tirade,2016,Cartoon cloud and figure
+Hip-Hop,MF DOOM & Madlib,Madvillainy,2004,Gray square with mask
+Hip-Hop,21 Savage,i am > i was,2018,Grayscale face minimal
+Hip-Hop,OutKast,Aquemini,1998,Framed retro painting
+Hip-Hop,Public Enemy,It Takes a Nation of Millions to Hold Us Back,1988,Bold grid and logo
+Country,Marty Robbins,Gunfighter Ballads and Trail Songs,1959,Hot pink cowboy silhouette
+Country,Johnny Cash,At Folsom Prison,1968,"Live profile, dark backdrop"
+Country,Willie Nelson,Red Headed Stranger,1975,Framed western portrait
+Country,Chris Stapleton,Traveller,2015,Monochrome figure on white
+Country,Dolly Parton,Jolene,1974,Bright portrait
+Country,Waylon Jennings,Honky Tonk Heroes,1973,Earthy brown palette
+Country,Merle Haggard,Mama Tried,1968,Sepia clarity
+Country,George Strait,Pure Country,1992,Hat silhouette close-up
+Country,Reba McEntire,Rumor Has It,1990,Simple blue tone portrait
+Country,Hank Williams,I Saw the Light,1956,Glowing figure illustration
+Country,Kacey Musgraves,Golden Hour,2018,Pastel sun behind profile
+Country,Sturgill Simpson,Metamodern Sounds in Country Music,2014,Cosmic cowboy imagery
+Country,Orville Peck,Pony,2019,Masked cowboy on red
+Country,Emmylou Harris,Wrecking Ball,1995,White portrait minimal
+Country,Jason Isbell,Southeastern,2013,Dark centered photo
+Country,Colter Wall,Imaginary Appalachia,2015,Woodcut black-and-white
+Country,Tyler Childers,Purgatory,2017,Bright forest red
+Country,Shania Twain,Come On Over,1997,Silver portrait minimal
+Country,Miranda Lambert,Wildcard,2019,Neon blue elements
+Country,The Highwaymen,Highwayman,1985,Horizon with figures
+Country,Townes Van Zandt,Our Mother the Mountain,1969,Minimal painting portrait
+Country,The Dead South,Good Company,2014,Black suits on white
+Country,Gillian Welch,Time (The Revelator),2001,Parchment tone typography
+Country,Patsy Cline,Showcase,1961,Pink and cream blocks
+Country,Willie Nelson,Shotgun Willie,1973,Smoke silhouette
+Country,Dwight Yoakam,"Guitars, Cadillacs, Etc., Etc.",1986,Blue denim motif
+Country,Midland,Let It Roll,2019,Old film saturation
+Country,Luke Combs,This One’s for You,2017,Clean caricature center
+Country,Brandi Carlile,Bear Creek,2012,Centered cabin scene
+Country,Marty Stuart,Way Out West,2017,Golden desert sky
+Electronic,Daft Punk,Discovery,2001,Chrome logo on black
+Electronic,Justice,† (Cross),2007,Golden cross center
+Electronic,Aphex Twin,Selected Ambient Works 85-92,1992,Black symbol on white
+Electronic,The Chemical Brothers,Dig Your Own Hole,1997,Face silhouette stark
+Electronic,Moby,Play,1999,Leaping figure on white
+Electronic,Boards of Canada,Music Has the Right to Children,1998,Faded turquoise gradient
+Electronic,Kraftwerk,The Man-Machine,1978,Red-black geometric uniforms
+Electronic,Underworld,Dubnobasswithmyheadman,1994,White graffiti script
+Electronic,deadmau5,Random Album Title,2008,Mau5 logo on dark
+Electronic,The Prodigy,The Fat of the Land,1997,Crab figure on beach
+Electronic,The Knife,Silent Shout,2006,Eerie blue face
+Electronic,LCD Soundsystem,Sound of Silver,2007,Silver sphere texture
+Electronic,Fatboy Slim,"You’ve Come a Long Way, Baby",1998,Large figure center
+Electronic,Trentemøller,The Last Resort,2006,Sparse fog scene
+Electronic,Bonobo,Migration,2017,Abstract landscape shape
+Electronic,Orbital,In Sides,1996,Glowing eyes icon
+Electronic,Röyksopp,Melody A.M.,2001,Brown cloud pattern
+Electronic,Burial,Untrue,2007,Grayscale sketch figure
+Electronic,Caribou,Swim,2010,Liquid orange pattern
+Electronic,ODESZA,In Return,2014,Geometric silhouette
+Electronic,Tycho,Dive,2011,Pastel horizon circle
+Electronic,Moderat,II,2013,Soft monochrome figure
+Electronic,Four Tet,Rounds,2003,Abstract circles
+Electronic,Flume,Skin,2016,Purple explosive texture
+Electronic,Floating Points,Elaenia,2015,Black light wave
+Electronic,Jamie xx,In Colour,2015,Color wheel wedge
+Electronic,Porter Robinson,Nurture,2021,Soft green sky figure
+Electronic,Fever Ray,Plunge,2017,Sharp red portrait
+Electronic,Jon Hopkins,Singularity,2018,Space horizon glow
+Electronic,M83,"Hurry Up, We’re Dreaming",2011,Child silhouettes on dark
+Jazz,Miles Davis,Kind of Blue,1959,Blue-toned portrait
+Jazz,John Coltrane,Blue Train,1957,Teal portrait
+Jazz,Charles Mingus,Mingus Ah Um,1959,Geometric abstract blocks
+Jazz,Herbie Hancock,Head Hunters,1973,Orange mask helmet
+Jazz,Dave Brubeck Quartet,Time Out,1959,Abstract color wheels
+Jazz,Chet Baker,Chet Baker Sings,1956,Clean grayscale portrait
+Jazz,Thelonious Monk,Monk’s Dream,1963,Strong profile
+Jazz,Nina Simone,Pastel Blues,1965,Portrait on blue
+Jazz,Sonny Rollins,Saxophone Colossus,1959,Cyan silhouette
+Jazz,Ella Fitzgerald & Louis Armstrong,Ella and Louis,1956,Warm duo photo
+Jazz,Ornette Coleman,The Shape of Jazz to Come,1959,Red title blocks
+Jazz,Charles Lloyd,Forest Flower,1966,Centered color patch
+Jazz,Wayne Shorter,Speak No Evil,1966,Cyan with red lip detail
+Jazz,Art Blakey & The Jazz Messengers,Moanin’,1959,Dark portrait
+Jazz,Bill Evans Trio,Portrait in Jazz,1960,Close focus portrait
+Jazz,Sarah Vaughan,At Mister Kelly’s,1958,High contrast figure
+Jazz,Stan Getz & João Gilberto,Getz/Gilberto,1964,Orange abstract squares
+Jazz,McCoy Tyner,The Real McCoy,1967,Grayscale geometry
+Jazz,Esperanza Spalding,Emily’s D+Evolution,2016,Colorful costume pose
+Jazz,Kamasi Washington,The Epic,2015,Monochrome sky figure
+Jazz,Christian Scott aTunde Adjuah,Stretch Music,2015,Gold-toned portrait
+Jazz,Sun Ra,Space Is the Place,1973,Psychedelic symmetry
+Jazz,Alice Coltrane,Journey in Satchidananda,1971,Warm halo portrait
+Jazz,Abdullah Ibrahim,Water from an Ancient Well,1986,Beige structure
+Jazz,Norah Jones,Come Away With Me,2002,Dark blue portrait
+Jazz,Pat Metheny Group,Still Life (Talking),1987,Pastel block art
+Jazz,Jaga Jazzist,One-Armed Bandit,2010,Sharp geometric shapes
+Jazz,GoGo Penguin,v2.0,2014,Cyan minimalism
+Jazz,BADBADNOTGOOD,IV,2016,Pink cloud pattern
+Jazz,Makaya McCraven,Universal Beings,2018,Hand-drawn collage
+Pop,Madonna,True Blue,1986,Clean monochrome portrait
+Pop,Michael Jackson,Thriller,1982,Single figure on dark
+Pop,Lady Gaga,The Fame,2008,Geometric face mask
+Pop,Adele,21,2011,Grayscale close-up face
+Pop,Dua Lipa,Future Nostalgia,2020,Neon studio scene
+Pop,Tears for Fears,Songs from the Big Chair,1985,Minimal gray duo
+Pop,The Weeknd,After Hours,2020,Red portrait
+Pop,Taylor Swift,1989,2014,Polaroid crop
+Pop,Carly Rae Jepsen,Emotion,2015,Diagonal light on black
+Pop,Robyn,Body Talk,2010,White geometric blocks
+Pop,Billie Eilish,"When We All Fall Asleep, Where Do We Go?",2019,Dark bed scene
+Pop,Lorde,Melodrama,2017,Painted figure close-up
+Pop,Charli XCX,Crash,2022,Chrome aesthetic
+Pop,The 1975,A Brief Inquiry Into Online Relationships,2018,Minimal white with dots
+Pop,Kate Bush,Hounds of Love,1985,Purple frame portrait
+Pop,ABBA,Gold,1992,Black with gold text
+Pop,Pet Shop Boys,Actually,1987,Minimal portrait
+Pop,Björk,Post,1995,Vibrant red-pink jacket
+Pop,Sia,1000 Forms of Fear,2014,Glowing wig shape on black
+Pop,Madonna,Ray of Light,1998,Cyan swirl hair
+Pop,Coldplay,Parachutes,2000,Glowing orange globe
+Pop,Kylie Minogue,Fever,2001,White studio silhouette
+Pop,CHVRCHES,The Bones of What You Believe,2013,Neon circular symbol
+Pop,Shura,Nothing’s Real,2016,Retro magenta composition
+Pop,Sam Smith,In the Lonely Hour,2014,Gray seated figure
+Pop,Olivia Rodrigo,SOUR,2021,Sticker face violet
+Pop,MUNA,Saves the World,2019,Pink gradient group
+Pop,MARINA,Electra Heart,2012,Monochrome portrait
+Pop,George Michael,Faith,1987,Cropped leather pose
+Pop,Aqua,Aquarium,1997,Blue watery frame
+Soul/Funk,Stevie Wonder,Songs in the Key of Life,1976,Circular orange swirl
+Soul/Funk,James Brown,Sex Machine,1970,Bold red typography
+Soul/Funk,Prince,1999,1982,Flat purple with iconography
+Soul/Funk,Curtis Mayfield,Superfly,1972,Gold-brown central figure
+Soul/Funk,Sly & The Family Stone,There’s a Riot Goin’ On,1971,Flag texture
+Soul/Funk,Marvin Gaye,What’s Going On,1971,Rain portrait
+Soul/Funk,Aretha Franklin,Lady Soul,1968,Turquoise portrait
+Soul/Funk,Parliament,Mothership Connection,1975,Comic spaceship
+Soul/Funk,Funkadelic,Maggot Brain,1971,Screaming head on black
+Soul/Funk,The Isley Brothers,3 + 3,1973,Warm-toned group
+Soul/Funk,Otis Redding,The Dock of the Bay,1968,Sepia seated pose
+Soul/Funk,The Temptations,Psychedelic Shack,1970,Saturated collage
+Soul/Funk,Al Green,Let’s Stay Together,1972,Green tone portrait
+Soul/Funk,"Earth, Wind & Fire",All ’N All,1977,Pyramid motif
+Soul/Funk,Isaac Hayes,Hot Buttered Soul,1969,Gold reflection head
+Soul/Funk,Donny Hathaway,Extension of a Man,1973,Sepia portrait
+Soul/Funk,Rick James,Street Songs,1981,Red-black bold alley
+Soul/Funk,Shuggie Otis,Inspiration Information,1974,Warm minimal portrait
+Soul/Funk,Gil Scott-Heron,Pieces of a Man,1971,Strong framed portrait
+Soul/Funk,D’Angelo,Voodoo,2000,"Bare torso, dark red field"
+Soul/Funk,Erykah Badu,Baduizm,1997,Profile with headwrap
+Soul/Funk,Tower of Power,Tower of Power,1973,Simple skyline block
+Soul/Funk,Chic,C’est Chic,1978,Clean fashion pose
+Soul/Funk,The Meters,Rejuvenation,1974,Bright illustrated room
+Soul/Funk,James Brown,The Payback,1973,Green filmic pose
+Soul/Funk,Sister Sledge,We Are Family,1979,Warm group portrait
+Soul/Funk,Sly Stone,Fresh,1973,Jump pose on white
+Soul/Funk,Kool & The Gang,Emergency,1984,Red action graphic
+Soul/Funk,War,The World Is a Ghetto,1972,City illustration
+Soul/Funk,Parliament,Funkentelechy vs. the Placebo Syndrome,1977,Comic hero emblem
+Classical,Ludwig van Beethoven / Karajan,Symphony No. 9,1962,High-contrast monochrome
+Classical,Antonio Vivaldi / Nigel Kennedy,The Four Seasons,1989,Bright red violin
+Classical,J.S. Bach / Glenn Gould,Goldberg Variations,1955,Clean piano portrait
+Classical,W.A. Mozart / ASMF,Requiem,1991,Blue-white serif minimal
+Classical,Philip Glass,Glassworks,1982,Minimal gray typography
+Classical,Gustav Holst / Boult,The Planets,1973,Nebula circle
+Classical,Arvo Pärt,Tabula Rasa,1984,Monochrome cross-like layout
+Classical,Max Richter,Sleep,2015,Deep blue gradient
+Classical,Henryk Górecki,Symphony No. 3,1992,Simple gray block
+Classical,Hildegard of Bingen / Sequentia,Canticles of Ecstasy,1994,Medieval gold icon
+Classical,John Tavener,The Protecting Veil,1988,Blue sacred iconography
+Classical,Steve Reich,Music for 18 Musicians,1978,Minimal lines
+Classical,Ólafur Arnalds,…And They Have Escaped the Weight of Darkness,2010,Soft horizon
+Classical,Nils Frahm,Felt,2011,Muted piano close-up
+Classical,Kronos Quartet,Pieces of Africa,1992,Bold African pattern
+Classical,Yo-Yo Ma,Bach: Cello Suites,1983,Cello silhouette
+Classical,Witold Lutosławski,Concerto for Orchestra,1992,Sharp abstract lines
+Classical,Claude Debussy / Ravel / Dutoit,Images / Rapsodie Espagnole,1986,Colorful fan shape
+Classical,Gustav Mahler / Bernstein,Symphony No. 5,1988,Black-white conductor pose
+Classical,Igor Stravinsky / Boulez,The Rite of Spring,1971,Primitive mask art
+Classical,Erik Satie / Reinbert de Leeuw,Gymnopédies,1977,Soft beige minimal
+Classical,Maurice Ravel / Boléro,Muti,1984,Red spiral brush
+Classical,John Williams,Star Wars: A New Hope (OST),1977,Bold logo on black
+Classical,Howard Shore,The Lord of the Rings: The Fellowship of the Ring (OST),2001,Gold ring on dark
+Classical,Hans Zimmer,Interstellar (OST),2014,Black hole swirl
+Classical,Einojuhani Rautavaara,Cantus Arcticus,1972,Bird silhouette on blue
+Classical,Ralph Vaughan Williams,Fantasia on a Theme by Thomas Tallis,1968,Cathedral window
+Classical,Aaron Copland,Appalachian Spring,1972,Pastel horizon
+Classical,Edward Elgar,Enigma Variations,1968,Green typographic block
+Classical,Camille Saint-Saëns,Carnival of the Animals,1976,Animal icons grid
+Folk,Bob Dylan,The Freewheelin’ Bob Dylan,1963,Street silhouettes in snow
+Folk,Simon & Garfunkel,Bridge Over Troubled Water,1970,Duo portrait pastel
+Folk,Joan Baez,Diamonds & Rust,1975,Central portrait
+Folk,Nick Drake,Pink Moon,1972,Bright surreal objects on dark
+Folk,Joni Mitchell,Blue,1971,Monochrome blue face
+Folk,Fleet Foxes,Fleet Foxes,2008,Rich painting collage
+Folk,Sufjan Stevens,Illinois,2005,Graphic city with Superman pose
+Folk,The Decemberists,The Crane Wife,2006,Paper-cut style
+Folk,Neutral Milk Hotel,In the Aeroplane Over the Sea,1998,Vintage painting with circle head
+Folk,Bon Iver,"For Emma, Forever Ago",2007,White frost window
+Folk,Leonard Cohen,Songs of Leonard Cohen,1967,Simple framed portrait
+Folk,Vashti Bunyan,Just Another Diamond Day,1970,Pastel drawing
+Folk,Iron & Wine,The Creek Drank the Cradle,2002,Hand-drawn portrait
+Folk,The Tallest Man on Earth,The Wild Hunt,2010,Simple black-and-white figure
+Folk,Devendra Banhart,Cripple Crow,2005,Busy collage but bold shapes
+Folk,Fairport Convention,Liege & Lief,1969,Purple frame pattern
+Folk,Nick Mulvey,First Mind,2014,Flat geometric face
+Folk,Laura Marling,Once I Was an Eagle,2013,Brown bird motif
+Folk,Angus & Julia Stone,Down the Way,2010,Soft horizon duo
+Folk,First Aid Kit,Stay Gold,2014,Gold frame portrait
+Folk,Mumford & Sons,Sigh No More,2009,Shopfront composition
+Folk,The Lumineers,The Lumineers,2012,Black border with white title
+Folk,Damien Rice,O,2002,Cream minimal dot
+Folk,Gillian Welch,Harrow & The Harvest,2011,Engraved frame
+Folk,The Avett Brothers,I and Love and You,2009,Gray type center
+Folk,José González,Veneer,2003,Simple portrait on beige
+Folk,Fleet Foxes,Helplessness Blues,2011,"Intricate woodcut, bold block"
+Folk,Phoebe Bridgers,Stranger in the Alps,2017,Purple field with ghost suit
+Folk,Mount Eerie,A Crow Looked at Me,2017,Minimal gray type
+Folk,Sharon Van Etten,Epic,2010,Red field with face
+Blues,B.B. King,Live at the Regal,1965,Orange stage light figure
+Blues,Muddy Waters,Hard Again,1977,Grinning portrait on white
+Blues,Robert Johnson,King of the Delta Blues Singers,1961,Monochrome guitar figure
+Blues,Buddy Guy,"Damn Right, I’ve Got the Blues",1991,Blue theme strong pose
+Blues,Howlin’ Wolf,Moanin’ in the Moonlight,1959,White moon on orange sky
+Blues,John Lee Hooker,Boom Boom,1962,"Cropped portrait, simple palette"
+Blues,Albert King,Born Under a Bad Sign,1967,Icon grid symbols on cream
+Blues,Etta James,At Last!,1960,Gold portrait on teal
+Blues,Freddie King,Getting Ready...,1971,"Large figure, simple tones"
+Blues,T-Bone Walker,T-Bone Blues,1959,Guitar silhouette on blue
+Blues,Junior Wells,Hoodoo Man Blues,1965,Teal portrait minimal
+Blues,Elmore James,Blues After Hours,1960,Guitar close-up
+Blues,Otis Rush,"Right Place, Wrong Time",1976,Bold red-black portrait
+Blues,Koko Taylor,Wang Dang Doodle,1969,Warm portrait on black
+Blues,Magic Sam,West Side Soul,1967,Yellow background portrait
+Blues,Lightnin’ Hopkins,Mojo Hand,1960,High-contrast hand motif
+Blues,Big Mama Thornton,Ball ‘n’ Chain,1968,Strong central portrait
+Blues,Bessie Smith,The Essential Bessie Smith,1997,Classic framed portrait
+Blues,Son House,Father of the Delta Blues,1965,Blue-toned figure
+Blues,Skip James,Today!,1966,Seated figure on white
+Blues,Hound Dog Taylor,Natural Boogie,1974,Hands and guitar close
+Blues,Johnny Winter,Second Winter,1969,Blue gradient faces
+Blues,Rory Gallagher,Deuce,1971,Guitarist silhouette
+Blues,Gary Clark Jr.,Blak and Blu,2012,Blue face minimal
+Blues,The Black Keys,Delta Kream,2021,"Car on roadside, bold shapes"
+Blues,Taj Mahal,The Natch’l Blues,1968,Blue portrait close-up
+Blues,Joe Bonamassa,Blues of Desperation,2016,Hands motif
+Blues,Susan Tedeschi,Just Won’t Burn,1998,Warm portrait with guitar
+Blues,Otis Taylor,Truth Is Not Fiction,2003,Dark portrait minimal
+Blues,Tedeschi Trucks Band,Revelator,2011,Simple bird silhouette
