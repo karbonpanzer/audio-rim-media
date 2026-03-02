@@ -38,10 +38,12 @@
         <li>texture_phrase->a rough-edged grain</li>
         <li>texture_phrase->a glassy shimmer</li>
         <li>texture_phrase->a warm, saturated bed</li>
+        <li>texture_phrase->a darkness rising from the deep</li>
         <li>energy_phrase->spring-loaded syncopation</li>
         <li>energy_phrase->slow-burn momentum</li>
         <li>energy_phrase->restless push-and-pull</li>
         <li>energy_phrase->steady undulation</li>
+        <li>energy_phrase->unrelentingly brutal force</li>
         <li>mood_adj->reflective</li>
         <li>mood_adj->defiant</li>
         <li>mood_adj->tender</li>
@@ -96,10 +98,14 @@
         <li>lyric_theme->work and mercy</li>
         <li>lyric_theme->leaving and staying</li>
         <li>lyric_theme->the cost of luck</li>
+        <li>lyric_theme->angst and frustration</li>
+        <li>lyric_theme->catharsis through pain</li>
+        <li>lyric_theme->the liberating force of darkness</li>
         <li>lyric_device->plain-spoken images</li>
         <li>lyric_device->refrain-driven turns</li>
         <li>lyric_device->stacked metaphors</li>
         <li>lyric_device->short, clipped lines</li>
+        <li>lyric_device->guttural outbursts</li>
         <li>lyric_register->low-voice confession</li>
         <li>lyric_register->choral lift</li>
         <li>lyric_register->half-sung murmur</li>
